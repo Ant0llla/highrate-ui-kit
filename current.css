@@ -3,3 +3,5 @@
 .seats.langame-map{min-width:840px}
 
 .config-row{padding:18px 0;border-bottom:1px solid var(--border)}.config-row h3{margin:0}.config-row p{margin:8px 0;overflow-wrap:anywhere}.full-menu{max-height:680px;overflow-y:auto;margin:16px 0}.catalog-row{gap:12px;align-items:center}.catalog-row>img,.menu-symbol{width:56px;height:56px;flex-shrink:0;object-fit:contain}.catalog-row>span:not(.menu-symbol){flex:1;min-width:0;overflow-wrap:anywhere}.menu-symbol{display:flex;align-items:center;justify-content:center;background:var(--surface);color:var(--muted)}.catalog-row small{display:block}.catalog-row>b{white-space:nowrap}.tv-preview{display:block;padding:22px;background:var(--surface);border:1px solid var(--border);color:var(--fg);text-decoration:none}.tv-preview img{display:block;width:100%;height:auto;margin:20px 0}.tv-preview h3{margin:14px 0}
+
+.mini-header{flex-wrap:wrap;gap:12px}.mini-header>span{min-width:0;overflow-wrap:anywhere}

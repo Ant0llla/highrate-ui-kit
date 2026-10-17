@@ -19,7 +19,7 @@
 - [Публичный граф проекта](project-graph/graph.html)
 - [PDF базового кита](exports/export.pdf)
 
-Целевые адреса публикации: [GitHub Pages](https://ant0llla.github.io/highrate-ui-kit/) и [репозиторий GitHub](https://github.com/Ant0llla/highrate-ui-kit). Доступность подтверждается после развёртывания.
+Опубликовано на [GitHub Pages](https://ant0llla.github.io/highrate-ui-kit/). Исходники доступны в [публичном репозитории GitHub](https://github.com/Ant0llla/highrate-ui-kit). Доступность проверена 17 октября 2026.
 
 ## Основа дизайна
 

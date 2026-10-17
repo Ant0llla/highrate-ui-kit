@@ -109,8 +109,8 @@
     },
     {
       "path": "assets/fonts/Geologica-OFL.txt",
-      "bytes": 4494,
-      "sha256": "51af3295b27e677afd41b77ca5d5fc874af7d1279d70a4f742188ae2abb0cabf"
+      "bytes": 4401,
+      "sha256": "45376480aa4fa16fd043922e90d397ff41837d437e96c05bd00254dd39243a90"
     },
     {
       "path": "assets/fonts/Geologica.woff2",
@@ -119,8 +119,8 @@
     },
     {
       "path": "assets/fonts/Unbounded-OFL.txt",
-      "bytes": 4485,
-      "sha256": "8f34e6e20f569b9ca4cd645e30726cf373c0c937f5cab5bd437eae7da23adda6"
+      "bytes": 4392,
+      "sha256": "4e13f7ff626e0ba79cfed3882539c9a5ec4e22af6e9ab64f4ef7af961f0287b4"
     },
     {
       "path": "assets/fonts/Unbounded.woff2",
@@ -554,8 +554,8 @@
     },
     {
       "path": "rsya-2026-10-05/assets/fonts/Geologica-OFL.txt",
-      "bytes": 4494,
-      "sha256": "51af3295b27e677afd41b77ca5d5fc874af7d1279d70a4f742188ae2abb0cabf"
+      "bytes": 4401,
+      "sha256": "45376480aa4fa16fd043922e90d397ff41837d437e96c05bd00254dd39243a90"
     },
     {
       "path": "rsya-2026-10-05/assets/fonts/Geologica.woff2",
@@ -564,8 +564,8 @@
     },
     {
       "path": "rsya-2026-10-05/assets/fonts/Unbounded-OFL.txt",
-      "bytes": 4485,
-      "sha256": "8f34e6e20f569b9ca4cd645e30726cf373c0c937f5cab5bd437eae7da23adda6"
+      "bytes": 4392,
+      "sha256": "4e13f7ff626e0ba79cfed3882539c9a5ec4e22af6e9ab64f4ef7af961f0287b4"
     },
     {
       "path": "rsya-2026-10-05/assets/fonts/Unbounded.woff2",
@@ -699,8 +699,8 @@
     },
     {
       "path": "rsya-b-2026-10-05/assets/fonts/Geologica-OFL.txt",
-      "bytes": 4494,
-      "sha256": "51af3295b27e677afd41b77ca5d5fc874af7d1279d70a4f742188ae2abb0cabf"
+      "bytes": 4401,
+      "sha256": "45376480aa4fa16fd043922e90d397ff41837d437e96c05bd00254dd39243a90"
     },
     {
       "path": "rsya-b-2026-10-05/assets/fonts/Geologica.woff2",
@@ -709,8 +709,8 @@
     },
     {
       "path": "rsya-b-2026-10-05/assets/fonts/Unbounded-OFL.txt",
-      "bytes": 4485,
-      "sha256": "8f34e6e20f569b9ca4cd645e30726cf373c0c937f5cab5bd437eae7da23adda6"
+      "bytes": 4392,
+      "sha256": "4e13f7ff626e0ba79cfed3882539c9a5ec4e22af6e9ab64f4ef7af961f0287b4"
     },
     {
       "path": "rsya-b-2026-10-05/assets/fonts/Unbounded.woff2",
@@ -844,8 +844,8 @@
     },
     {
       "path": "rsya-c-2026-10-05/assets/fonts/Geologica-OFL.txt",
-      "bytes": 4494,
-      "sha256": "51af3295b27e677afd41b77ca5d5fc874af7d1279d70a4f742188ae2abb0cabf"
+      "bytes": 4401,
+      "sha256": "45376480aa4fa16fd043922e90d397ff41837d437e96c05bd00254dd39243a90"
     },
     {
       "path": "rsya-c-2026-10-05/assets/fonts/Geologica.woff2",
@@ -854,8 +854,8 @@
     },
     {
       "path": "rsya-c-2026-10-05/assets/fonts/Unbounded-OFL.txt",
-      "bytes": 4485,
-      "sha256": "8f34e6e20f569b9ca4cd645e30726cf373c0c937f5cab5bd437eae7da23adda6"
+      "bytes": 4392,
+      "sha256": "4e13f7ff626e0ba79cfed3882539c9a5ec4e22af6e9ab64f4ef7af961f0287b4"
     },
     {
       "path": "rsya-c-2026-10-05/assets/fonts/Unbounded.woff2",
@@ -989,8 +989,8 @@
     },
     {
       "path": "rsya-d-2026-10-05/assets/fonts/Geologica-OFL.txt",
-      "bytes": 4494,
-      "sha256": "51af3295b27e677afd41b77ca5d5fc874af7d1279d70a4f742188ae2abb0cabf"
+      "bytes": 4401,
+      "sha256": "45376480aa4fa16fd043922e90d397ff41837d437e96c05bd00254dd39243a90"
     },
     {
       "path": "rsya-d-2026-10-05/assets/fonts/Geologica.woff2",
@@ -999,8 +999,8 @@
     },
     {
       "path": "rsya-d-2026-10-05/assets/fonts/Unbounded-OFL.txt",
-      "bytes": 4485,
-      "sha256": "8f34e6e20f569b9ca4cd645e30726cf373c0c937f5cab5bd437eae7da23adda6"
+      "bytes": 4392,
+      "sha256": "4e13f7ff626e0ba79cfed3882539c9a5ec4e22af6e9ab64f4ef7af961f0287b4"
     },
     {
       "path": "rsya-d-2026-10-05/assets/fonts/Unbounded.woff2",
