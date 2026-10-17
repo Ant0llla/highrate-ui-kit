@@ -1,0 +1,149 @@
+{
+  "brand": "HIGHRATE",
+  "numbers": [
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18"
+  ],
+  "formats": [
+    "1080×1080",
+    "1920×1080"
+  ],
+  "concepts": [
+    {
+      "number": "13",
+      "title": "Твоё место силы",
+      "support": "Комфортный компьютерный клуб для твоей игры",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-13-square.jpg",
+          "png": "exports/RSYA-13-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-13-wide.jpg",
+          "png": "exports/RSYA-13-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "Играй с размахом",
+      "support": "Сильный сетап для твоих игровых планов",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-14-square.jpg",
+          "png": "exports/RSYA-14-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-14-wide.jpg",
+          "png": "exports/RSYA-14-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "title": "Комфорт в каждой детали",
+      "support": "Удобные места и внимание к твоему вечеру",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-15-square.jpg",
+          "png": "exports/RSYA-15-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-15-wide.jpg",
+          "png": "exports/RSYA-15-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "16",
+      "title": "Игра заслуживает сцену",
+      "support": "HIGHRATE — сильный сетап и комфорт",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-16-square.jpg",
+          "png": "exports/RSYA-16-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-16-wide.jpg",
+          "png": "exports/RSYA-16-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "17",
+      "title": "Точность начинается здесь",
+      "support": "Выбери конфигурацию под свою игру",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-17-square.jpg",
+          "png": "exports/RSYA-17-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-17-wide.jpg",
+          "png": "exports/RSYA-17-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "18",
+      "title": "Вечер под хорошим знаком",
+      "support": "Комфорт и сервис высокого уровня в HIGHRATE",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-18-square.jpg",
+          "png": "exports/RSYA-18-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-18-wide.jpg",
+          "png": "exports/RSYA-18-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    }
+  ]
+}

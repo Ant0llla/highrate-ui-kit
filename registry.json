@@ -1,0 +1,318 @@
+{
+  "version": "1.1.0",
+  "date": "2026-10-04",
+  "primaryBasis": "Актуальные требования к дизайн-системе HIGHRATE",
+  "components": [
+    {
+      "id": "button-primary",
+      "name": "Основная кнопка",
+      "spec": "Действие · 54 px · 4 px radius · default / hover / pressed / disabled / focus",
+      "source": "kit.js",
+      "preview": "index.html#c-button-primary",
+      "status": "new-working-specification",
+      "native": "YGw6k",
+      "dataSource": null
+    },
+    {
+      "id": "button-secondary",
+      "name": "Вторичная кнопка",
+      "spec": "Действие · outline · 54 px · не конкурирует с основным CTA",
+      "source": "kit.js",
+      "preview": "index.html#c-button-secondary",
+      "status": "new-working-specification",
+      "native": "k1cmEi",
+      "dataSource": null
+    },
+    {
+      "id": "button-size",
+      "name": "Размеры кнопок",
+      "spec": "Compact 44 / default 54 · подпись по действию",
+      "source": "kit.js",
+      "preview": "index.html#c-button-size",
+      "status": "new-working-specification",
+      "native": "dchoz",
+      "dataSource": null
+    },
+    {
+      "id": "icon-button",
+      "name": "Иконка-кнопка",
+      "spec": "48 × 48 · доступное имя · hover / focus",
+      "source": "kit.js",
+      "preview": "index.html#c-icon-button",
+      "status": "new-working-specification",
+      "native": "RvMhX",
+      "dataSource": null
+    },
+    {
+      "id": "text-link",
+      "name": "Текстовая ссылка",
+      "spec": "44 px цель · underline · внешний переход ↗",
+      "source": "kit.js",
+      "preview": "index.html#c-text-link",
+      "status": "new-working-specification",
+      "native": "UG5l7",
+      "dataSource": null
+    },
+    {
+      "id": "badge",
+      "name": "Метки и бейджи",
+      "spec": "Текст + цвет · статус / категория / источник",
+      "source": "kit.js",
+      "preview": "index.html#c-badge",
+      "status": "new-working-specification",
+      "native": "P9wCr",
+      "dataSource": null
+    },
+    {
+      "id": "input",
+      "name": "Поле ввода",
+      "spec": "48 px · label / helper / error / disabled · mobile 16 px",
+      "source": "kit.js",
+      "preview": "index.html#c-input",
+      "status": "new-working-specification",
+      "native": "n3JR1Y",
+      "dataSource": null
+    },
+    {
+      "id": "input-error",
+      "name": "Поле с ошибкой",
+      "spec": "Текст ошибки рядом с полем · aria-invalid",
+      "source": "kit.js",
+      "preview": "index.html#c-input-error",
+      "status": "new-working-specification",
+      "native": "qrRjE",
+      "dataSource": null
+    },
+    {
+      "id": "choice",
+      "name": "Выбор и переключатель",
+      "spec": "Native input · keyboard · checked / unchecked / disabled",
+      "source": "kit.js",
+      "preview": "index.html#c-choice",
+      "status": "new-working-specification",
+      "native": [
+        "b5loiP",
+        "nfdIO"
+      ],
+      "dataSource": null
+    },
+    {
+      "id": "segmented",
+      "name": "Сегментированный контроль",
+      "spec": "Один выбор · 48 px · selected / default",
+      "source": "kit.js",
+      "preview": "index.html#c-segmented",
+      "status": "new-working-specification",
+      "native": "w97zez",
+      "dataSource": null
+    },
+    {
+      "id": "select",
+      "name": "Список выбора",
+      "spec": "Native select · label · 48 px · длинные варианты",
+      "source": "kit.js",
+      "preview": "index.html#c-select",
+      "status": "new-working-specification",
+      "native": "Cg4MW",
+      "dataSource": null
+    },
+    {
+      "id": "toast",
+      "name": "Уведомление",
+      "spec": "role=status · короткий результат · не заменяет ошибку формы",
+      "source": "kit.js",
+      "preview": "index.html#c-toast",
+      "status": "new-working-specification",
+      "native": [
+        "I2aFaT",
+        "FnpTV",
+        "l4tazX"
+      ],
+      "dataSource": null
+    },
+    {
+      "id": "dialog",
+      "name": "Модальное окно",
+      "spec": "Native dialog · focus trap / Escape / возврат фокуса",
+      "source": "kit.js",
+      "preview": "index.html#c-dialog",
+      "status": "new-working-specification",
+      "native": "eeg2M",
+      "dataSource": null
+    },
+    {
+      "id": "disclosure",
+      "name": "Раскрывающийся блок",
+      "spec": "Native details · keyboard · без скрытых обязательных условий",
+      "source": "kit.js",
+      "preview": "index.html#c-disclosure",
+      "status": "new-working-specification",
+      "native": null,
+      "dataSource": null
+    },
+    {
+      "id": "divider",
+      "name": "Разделитель",
+      "spec": "1 px · семантическая граница · без лишних карточек",
+      "source": "kit.js",
+      "preview": "index.html#c-divider",
+      "status": "new-working-specification",
+      "native": null,
+      "dataSource": null
+    },
+    {
+      "id": "loading",
+      "name": "Загрузка",
+      "spec": "Skeleton · не имитирует успешный live ответ",
+      "source": "kit.js",
+      "preview": "index.html#c-loading",
+      "status": "new-working-specification",
+      "native": null,
+      "dataSource": null
+    },
+    {
+      "id": "zone-card",
+      "name": "Карточка зоны",
+      "spec": "Реальное фото · название · точная конфигурация места · CTA",
+      "source": "kit.js",
+      "preview": "index.html#c-zone-card",
+      "status": "new-working-specification",
+      "native": "Me7Nj",
+      "dataSource": "LANGAME club 1, verified 2026-10-04"
+    },
+    {
+      "id": "booking-summary",
+      "name": "Сводка сеанса",
+      "spec": "Дата · время · длительность · выбранный UUID · цена из каталога",
+      "source": "kit.js",
+      "preview": "index.html#c-booking-summary",
+      "status": "new-working-specification",
+      "native": "jcEWL",
+      "dataSource": "LANGAME club 1, verified 2026-10-04"
+    },
+    {
+      "id": "seat",
+      "name": "Маркер места",
+      "spec": "Номер LANGAME · UUID · default / selected / occupied / unknown",
+      "source": "kit.js",
+      "preview": "index.html#c-seat",
+      "status": "new-working-specification",
+      "native": "kRGXM",
+      "dataSource": "LANGAME club 1, verified 2026-10-04"
+    },
+    {
+      "id": "tariff-row",
+      "name": "Строка тарифа",
+      "spec": "Зона · период · длительность · актуальная цена · условия",
+      "source": "kit.js",
+      "preview": "index.html#c-tariff-row",
+      "status": "new-working-specification",
+      "native": "g3xoKM",
+      "dataSource": null
+    },
+    {
+      "id": "product-row",
+      "name": "Строка товара",
+      "spec": "Название · порция · цена · наличие · варианты",
+      "source": "kit.js",
+      "preview": "index.html#c-product-row",
+      "status": "new-working-specification",
+      "native": "dNjdg",
+      "dataSource": "menu-data.json, historical contents; current price/portion null"
+    },
+    {
+      "id": "mobile-navigation",
+      "name": "Мобильная навигация",
+      "spec": "Пять разделов · active / default · safe area",
+      "source": "kit.js",
+      "preview": "index.html#c-mobile-navigation",
+      "status": "new-working-specification",
+      "native": null,
+      "dataSource": null
+    },
+    {
+      "id": "header",
+      "name": "Шапка",
+      "spec": "Оригинальный логотип · основные разделы · мобильное меню",
+      "source": "kit.js",
+      "preview": "index.html#c-header",
+      "status": "new-working-specification",
+      "native": null,
+      "dataSource": null
+    },
+    {
+      "id": "story-template",
+      "name": "Шаблон Stories",
+      "spec": "1080 × 1920 · реальное фото · короткий заголовок · действие",
+      "source": "kit.js",
+      "preview": "index.html#c-story-template",
+      "status": "new-working-specification",
+      "native": null,
+      "dataSource": null
+    },
+    {
+      "id": "post-template",
+      "name": "Шаблон поста",
+      "spec": "1080 × 1080 · реальные фото · заголовок без точки",
+      "source": "kit.js",
+      "preview": "index.html#c-post-template",
+      "status": "new-working-specification",
+      "native": null,
+      "dataSource": null
+    },
+    {
+      "id": "tv-template",
+      "name": "Меню на TV",
+      "spec": "1920 × 1080 · крупные фото · название · порция · цена",
+      "source": "kit.js",
+      "preview": "index.html#c-tv-template",
+      "status": "new-working-specification",
+      "native": null,
+      "dataSource": "menu-data.json, historical contents; current price/portion null"
+    },
+    {
+      "id": "iconography",
+      "name": "Система иконок",
+      "spec": "Lucide · 1.75 stroke · SVG · подпись действия",
+      "source": "kit.js",
+      "preview": "index.html#c-iconography",
+      "status": "new-working-specification",
+      "native": null,
+      "dataSource": null
+    },
+    {
+      "id": "desktop-block",
+      "name": "Область ярлыков Windows",
+      "spec": "Пустой div · расположение фоновых областей · реальные .lnk устанавливаются в Windows",
+      "source": "kit.js",
+      "preview": "index.html#c-desktop-block",
+      "status": "new-working-specification",
+      "native": [
+        "Brus2",
+        "R0qGNS",
+        "c71Bi7"
+      ],
+      "dataSource": null
+    },
+    {
+      "id": "shortcut-slot",
+      "name": "Слот личного кабинета",
+      "spec": "Пустая область под Windows .lnk · фон без фотографии и сетки",
+      "source": "kit.js",
+      "preview": "index.html#c-shortcut-slot",
+      "status": "new-working-specification",
+      "native": "chx2W",
+      "dataSource": null
+    },
+    {
+      "id": "menu-photo",
+      "name": "Блюдо с фотографией",
+      "spec": "Исходное фото · editable title · цена и порция из каталога",
+      "source": "kit.js",
+      "preview": "index.html#c-menu-photo",
+      "status": "new-working-specification",
+      "native": "t6GqBq",
+      "dataSource": "menu-data.json, historical contents; current price/portion null"
+    }
+  ]
+}

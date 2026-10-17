@@ -1,0 +1,149 @@
+{
+  "brand": "HIGHRATE",
+  "numbers": [
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24"
+  ],
+  "formats": [
+    "1080×1080",
+    "1920×1080"
+  ],
+  "concepts": [
+    {
+      "number": "19",
+      "title": "Знак твоей игры",
+      "support": "Комфорт и сильный сетап в HIGHRATE",
+      "status": "current_candidates",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-19-square.jpg",
+          "png": "exports/RSYA-19-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-19-wide.jpg",
+          "png": "exports/RSYA-19-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "title": "У HIGHRATE свой свет",
+      "support": "Сервис высокого уровня в комфортном пространстве",
+      "status": "current_candidates",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-20-square.jpg",
+          "png": "exports/RSYA-20-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-20-wide.jpg",
+          "png": "exports/RSYA-20-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "21",
+      "title": "Комфорт с характером HIGHRATE",
+      "support": "Внимание к деталям твоей игры",
+      "status": "current_candidates",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-21-square.jpg",
+          "png": "exports/RSYA-21-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-21-wide.jpg",
+          "png": "exports/RSYA-21-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "22",
+      "title": "Игра найдёт своё место",
+      "support": "Выбери свой формат в HIGHRATE",
+      "status": "current_candidates",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-22-square.jpg",
+          "png": "exports/RSYA-22-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-22-wide.jpg",
+          "png": "exports/RSYA-22-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "23",
+      "title": "HIGHRATE в твоём ритме",
+      "support": "Комфортная игра на сильном сетапе",
+      "status": "current_candidates",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-23-square.jpg",
+          "png": "exports/RSYA-23-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-23-wide.jpg",
+          "png": "exports/RSYA-23-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "24",
+      "title": "HIGHRATE на Парашютной",
+      "support": "Комфортная игра в Приморском районе",
+      "status": "current_candidates",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-24-square.jpg",
+          "png": "exports/RSYA-24-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-24-wide.jpg",
+          "png": "exports/RSYA-24-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    }
+  ]
+}

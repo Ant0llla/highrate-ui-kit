@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HIGHRATE — рабочий стол</title>
+  <link rel="stylesheet" href="desktop.css">
+</head>
+<body>
+  <header class="editor-bar">
+    <div class="editor-title"><h1>Рабочий стол</h1><span>Области 1920 × 1080 · PNG до 4K</span></div>
+    <label for="background-variant" class="toolbar-field">Фон <select id="background-variant"><option value="solid">Спокойный фон</option><option value="impulse">01 Импульс</option><option value="monolith">02 Монолит</option><option value="flow">03 Поток</option></select></label>
+    <button id="edit" aria-pressed="false">Редактировать области</button>
+    <button id="save">Сохранить</button>
+    <label for="export-size" class="toolbar-field">Размер PNG <select id="export-size"><option value="1920x1080">1920 × 1080</option><option value="2560x1440">2560 × 1440</option><option value="3840x2160" selected>3840 × 2160 · 4K</option></select></label>
+    <button id="export-png">Экспорт обоев PNG</button>
+    <a id="png-download" class="toolbar-link" download="HIGHRATE-desktop-custom-3840x2160.png" hidden>Скачать PNG 3840 × 2160</a>
+    <button id="export">Экспорт JSON</button>
+    <button id="import">Импорт JSON</button>
+    <input type="file" id="config-file" accept="application/json,.json" hidden>
+    <button id="reset">Вернуть шаблон</button>
+    <a class="toolbar-link" href="assets/desktop/HIGHRATE-desktop-1920x1080.png" download>Исходные обои ↗</a>
+    <a class="toolbar-link" href="wallpapers-2026-10-05/">Фоны 01–03 ↗</a>
+    <a class="toolbar-link" href="index.html#current-assets">UI kit ↗</a>
+  </header>
+  <div class="editor-meta">
+    <span id="editor-status" role="status" aria-live="polite">Режим просмотра</span>
+    <span id="background-status" role="status" aria-live="polite"></span>
+    <span id="scale-status">По размеру окна</span>
+  </div>
+  <section id="area-controls" class="area-controls" aria-label="Настройки областей" hidden>
+    <label for="area-select">Область <select id="area-select"><option value="cabinet">Личный кабинет</option><option value="programs">Программы</option><option value="launchers">Лаунчеры</option><option value="games">Игры</option></select></label>
+    <label for="area-x">Слева <input id="area-x" type="number" min="0" step="1" inputmode="numeric"></label>
+    <label for="area-y">Сверху <input id="area-y" type="number" min="0" step="1" inputmode="numeric"></label>
+    <label for="area-width">Ширина <input id="area-width" type="number" min="140" step="1" inputmode="numeric"></label>
+    <label for="area-height">Высота <input id="area-height" type="number" min="140" step="1" inputmode="numeric"></label>
+    <label for="background-color" class="color-control">Спокойный фон <input id="background-color" type="color" value="#111111"></label>
+    <label for="accent-color" class="color-control">Акцент <input id="accent-color" type="color" value="#8d7bff"></label>
+  </section>
+  <main id="viewport" class="desktop-viewport" aria-label="Предпросмотр обоев рабочего стола">
+    <div id="stage" class="desktop-stage">
+      <div id="desktop" class="desktop" data-editing="false">
+        <img id="wallpaper-image" class="wallpaper-image" alt="" draggable="false" hidden>
+        <img class="logo" src="assets/logo-white-full.png" alt="HIGHRATE" draggable="false">
+        <div class="motto">Твоя игра выше</div>
+        <div id="cabinet-slot" class="shortcut-slot movable" data-area="cabinet" aria-label="Пустое место для ярлыка личного кабинета">
+          <h2 id="cabinet-title" class="editable" aria-label="Название области личного кабинета"></h2>
+        </div>
+        <div id="programs-block" class="desktop-area movable" data-area="programs"><h2 class="editable" aria-label="Заголовок области программ"></h2></div>
+        <div id="launchers-block" class="desktop-area movable" data-area="launchers"><h2 class="editable" aria-label="Заголовок области лаунчеров"></h2></div>
+        <div id="games-block" class="desktop-area movable" data-area="games"><h2 class="editable" aria-label="Заголовок области игр"></h2></div>
+        <div class="footer-note" aria-hidden="true">HIGHRATE / CYBER SPOT</div>
+      </div>
+    </div>
+  </main>
+  <section id="png-result" class="export-result" aria-label="Подготовленные обои" hidden>
+    <h2>Подготовленные обои</h2>
+    <img id="png-preview" alt="Подготовленные обои HIGHRATE">
+  </section>
+  <footer class="help">
+    Программы, лаунчеры, игры и личный кабинет запускаются настоящими ярлыками Windows (.lnk), которые размещаются поверх обоев средствами Windows. Обои оставляют под них пустые области. Здесь можно менять заголовки, размеры и расположение этих div-областей, фон и акцент. Выберите фон и размер PNG до 3840 × 2160, затем нажмите «Экспорт обоев PNG» и «Скачать PNG». Координаты областей задаются для 1920 × 1080 и масштабируются при экспорте. «Исходные обои» — базовый шаблон. JSON хранит только настройки оформления и областей; устанавливать приложения и создавать ярлыки нужно в Windows. Сохранение работает в этом браузере.
+  </footer>
+  <script src="desktop.js"></script>
+</body>
+</html>

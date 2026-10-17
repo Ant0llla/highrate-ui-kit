@@ -1,0 +1,149 @@
+{
+  "brand": "HIGHRATE",
+  "numbers": [
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12"
+  ],
+  "formats": [
+    "1080×1080",
+    "1920×1080"
+  ],
+  "concepts": [
+    {
+      "number": "07",
+      "title": "Из чата — в HIGHRATE",
+      "support": "Твои люди рядом, сильный сетап и комфорт тоже",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-07-square.jpg",
+          "png": "exports/RSYA-07-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-07-wide.jpg",
+          "png": "exports/RSYA-07-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "08",
+      "title": "Пора сменить режим",
+      "support": "Оставь рутину за дверью, проведи вечер в HIGHRATE",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-08-square.jpg",
+          "png": "exports/RSYA-08-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-08-wide.jpg",
+          "png": "exports/RSYA-08-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "09",
+      "title": "Устройся как надо",
+      "support": "Удобное место для твоей игры",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-09-square.jpg",
+          "png": "exports/RSYA-09-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-09-wide.jpg",
+          "png": "exports/RSYA-09-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Здесь твой вечер важен",
+      "support": "Комфорт и высокий уровень сервиса",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-10-square.jpg",
+          "png": "exports/RSYA-10-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-10-wide.jpg",
+          "png": "exports/RSYA-10-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Мощно + удобно",
+      "support": "Сильный сетап и комфортные места",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-11-square.jpg",
+          "png": "exports/RSYA-11-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-11-wide.jpg",
+          "png": "exports/RSYA-11-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "План на двоих",
+      "support": "Зона DUO, комфорт и сильный сетап",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-12-square.jpg",
+          "png": "exports/RSYA-12-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-12-wide.jpg",
+          "png": "exports/RSYA-12-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    }
+  ]
+}

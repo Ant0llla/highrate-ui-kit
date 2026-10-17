@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Публичная карта материалов и проверенных связей дизайн-кита HIGHRATE">
+  <title>HIGHRATE — Граф дизайн-кита</title>
+  <link rel="stylesheet" href="graph.css">
+  <script src="graph.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#workspace">К графу</a>
+  <header class="header"><a href="../index.html" class="brand"><img src="../assets/logo-white-full.png" width="203" height="40" alt="HIGHRATE"></a><a class="back" href="../index.html">← Дизайн-кит</a></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">HIGHRATE / DESIGN SYSTEM</p><h1>Граф дизайн-кита</h1><p class="lead">Материалы, состав и проверенные связи визуальной системы</p></div><a class="text-link" href="graph.json" download>Данные графа JSON ↗</a></div>
+    <div class="stats" id="stats" aria-label="Состав дизайн-кита"></div>
+    <section class="toolbar" aria-label="Управление графом"><label>Поиск<input id="search" type="search" placeholder="Компонент зона или номер креатива" autocomplete="off"></label><label>Тип узла<select id="type"><option value="">Все типы</option></select></label><button id="overview" class="secondary" type="button">К обзору</button></section>
+    <div class="workspace" id="workspace">
+      <section class="graph-panel" aria-label="Граф материалов"><div class="view-heading"><h2 id="view-title">Обзор системы</h2><p id="result-count" role="status"></p></div><div class="diagram" id="diagram"><svg id="connections" aria-hidden="true"></svg><div id="parent-node"></div><div id="nodes" class="nodes"></div></div><p id="empty" class="empty" hidden>Ничего не найдено Попробуй другое название или номер</p></section>
+      <aside class="inspector" aria-labelledby="detail-title"><p class="eyebrow" id="detail-type">ПРОЕКТ</p><h2 id="detail-title">HIGHRATE UI kit</h2><p id="detail-description"></p><div id="detail-facts"></div><div id="detail-links" class="detail-links"></div><div id="related"></div></aside>
+    </div>
+    <footer><div><h2>Как читать связи</h2><dl class="legend"><div><dt>Содержит</dt><dd>Элемент перечислен в соответствующем реестре или разделе кита</dd></div><div><dt>Относится к зоне</dt><dd>Место включено в список выбранной зоны в данных карты</dd></div><div><dt>Доступно как фон</dt><dd>Вариант присутствует в редакторе рабочего стола</dd></div></dl></div><p>Цены и доступность мест в реальном времени к демонстрации не подключены Состав меню представлен как шаблон каталога Конфигурации и схема отражают сохранённую редакцию кита</p><a href="manifest.json">Состав и проверка публичного графа ↗</a></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,423 @@
+{
+  "version": "1.2",
+  "nextNumber": 25,
+  "renumberedFrom": {
+    "B01": "07",
+    "B02": "08",
+    "B03": "09",
+    "B04": "10",
+    "B05": "11",
+    "B06": "12"
+  },
+  "concepts": [
+    {
+      "number": "01",
+      "title": "Играй с комфортом",
+      "folder": "rsya-2026-10-05",
+      "gallery": "rsya-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-2026-10-05/assets/RSYA-01-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-2026-10-05/assets/RSYA-01-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "02",
+      "title": "Сильное железо для твоей игры",
+      "folder": "rsya-2026-10-05",
+      "gallery": "rsya-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-2026-10-05/assets/RSYA-02-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-2026-10-05/assets/RSYA-02-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "03",
+      "title": "Сервис высокого уровня",
+      "folder": "rsya-2026-10-05",
+      "gallery": "rsya-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-2026-10-05/assets/RSYA-03-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-2026-10-05/assets/RSYA-03-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "04",
+      "title": "Играй вместе со своими",
+      "folder": "rsya-2026-10-05",
+      "gallery": "rsya-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-2026-10-05/assets/RSYA-04-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-2026-10-05/assets/RSYA-04-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "05",
+      "title": "Выбери свой формат",
+      "folder": "rsya-2026-10-05",
+      "gallery": "rsya-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-2026-10-05/assets/RSYA-05-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-2026-10-05/assets/RSYA-05-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "06",
+      "title": "Собери свой состав",
+      "folder": "rsya-2026-10-05",
+      "gallery": "rsya-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-2026-10-05/assets/RSYA-06-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-2026-10-05/assets/RSYA-06-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "07",
+      "title": "Из чата — в HIGHRATE",
+      "folder": "rsya-b-2026-10-05",
+      "gallery": "rsya-b-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-b-2026-10-05/assets/RSYA-07-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-b-2026-10-05/assets/RSYA-07-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "08",
+      "title": "Пора сменить режим",
+      "folder": "rsya-b-2026-10-05",
+      "gallery": "rsya-b-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-b-2026-10-05/assets/RSYA-08-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-b-2026-10-05/assets/RSYA-08-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "09",
+      "title": "Устройся как надо",
+      "folder": "rsya-b-2026-10-05",
+      "gallery": "rsya-b-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-b-2026-10-05/assets/RSYA-09-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-b-2026-10-05/assets/RSYA-09-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "10",
+      "title": "Здесь твой вечер важен",
+      "folder": "rsya-b-2026-10-05",
+      "gallery": "rsya-b-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-b-2026-10-05/assets/RSYA-10-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-b-2026-10-05/assets/RSYA-10-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "11",
+      "title": "Мощно + удобно",
+      "folder": "rsya-b-2026-10-05",
+      "gallery": "rsya-b-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-b-2026-10-05/assets/RSYA-11-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-b-2026-10-05/assets/RSYA-11-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "12",
+      "title": "План на двоих",
+      "folder": "rsya-b-2026-10-05",
+      "gallery": "rsya-b-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-b-2026-10-05/assets/RSYA-12-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-b-2026-10-05/assets/RSYA-12-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "13",
+      "title": "Твоё место силы",
+      "folder": "rsya-c-2026-10-05",
+      "gallery": "rsya-c-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-c-2026-10-05/assets/RSYA-13-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-c-2026-10-05/assets/RSYA-13-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "14",
+      "title": "Играй с размахом",
+      "folder": "rsya-c-2026-10-05",
+      "gallery": "rsya-c-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-c-2026-10-05/assets/RSYA-14-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-c-2026-10-05/assets/RSYA-14-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "15",
+      "title": "Комфорт в каждой детали",
+      "folder": "rsya-c-2026-10-05",
+      "gallery": "rsya-c-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-c-2026-10-05/assets/RSYA-15-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-c-2026-10-05/assets/RSYA-15-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "16",
+      "title": "Игра заслуживает сцену",
+      "folder": "rsya-c-2026-10-05",
+      "gallery": "rsya-c-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-c-2026-10-05/assets/RSYA-16-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-c-2026-10-05/assets/RSYA-16-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "17",
+      "title": "Точность начинается здесь",
+      "folder": "rsya-c-2026-10-05",
+      "gallery": "rsya-c-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-c-2026-10-05/assets/RSYA-17-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-c-2026-10-05/assets/RSYA-17-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "18",
+      "title": "Вечер под хорошим знаком",
+      "folder": "rsya-c-2026-10-05",
+      "gallery": "rsya-c-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-c-2026-10-05/assets/RSYA-18-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-c-2026-10-05/assets/RSYA-18-wide.jpg"
+        }
+      ],
+      "status": "historical_previous_approach"
+    },
+    {
+      "number": "19",
+      "title": "Знак твоей игры",
+      "folder": "rsya-d-2026-10-05",
+      "gallery": "rsya-d-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-d-2026-10-05/assets/RSYA-19-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-d-2026-10-05/assets/RSYA-19-wide.jpg"
+        }
+      ],
+      "status": "current_candidates"
+    },
+    {
+      "number": "20",
+      "title": "У HIGHRATE свой свет",
+      "folder": "rsya-d-2026-10-05",
+      "gallery": "rsya-d-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-d-2026-10-05/assets/RSYA-20-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-d-2026-10-05/assets/RSYA-20-wide.jpg"
+        }
+      ],
+      "status": "current_candidates"
+    },
+    {
+      "number": "21",
+      "title": "Комфорт с характером HIGHRATE",
+      "folder": "rsya-d-2026-10-05",
+      "gallery": "rsya-d-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-d-2026-10-05/assets/RSYA-21-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-d-2026-10-05/assets/RSYA-21-wide.jpg"
+        }
+      ],
+      "status": "current_candidates"
+    },
+    {
+      "number": "22",
+      "title": "Игра найдёт своё место",
+      "folder": "rsya-d-2026-10-05",
+      "gallery": "rsya-d-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-d-2026-10-05/assets/RSYA-22-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-d-2026-10-05/assets/RSYA-22-wide.jpg"
+        }
+      ],
+      "status": "current_candidates"
+    },
+    {
+      "number": "23",
+      "title": "HIGHRATE в твоём ритме",
+      "folder": "rsya-d-2026-10-05",
+      "gallery": "rsya-d-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-d-2026-10-05/assets/RSYA-23-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-d-2026-10-05/assets/RSYA-23-wide.jpg"
+        }
+      ],
+      "status": "current_candidates"
+    },
+    {
+      "number": "24",
+      "title": "HIGHRATE на Парашютной",
+      "folder": "rsya-d-2026-10-05",
+      "gallery": "rsya-d-2026-10-05/",
+      "formats": [
+        {
+          "format": "square",
+          "path": "rsya-d-2026-10-05/assets/RSYA-24-square.jpg"
+        },
+        {
+          "format": "wide",
+          "path": "rsya-d-2026-10-05/assets/RSYA-24-wide.jpg"
+        }
+      ],
+      "status": "current_candidates"
+    }
+  ],
+  "updatedAt": "2026-10-05T08:34:06.293Z"
+}

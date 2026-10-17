@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "generatedOn": "2026-10-17",
+  "scope": "Публичные материалы дизайн-кита",
+  "summary": {
+    "components": 30,
+    "zones": 7,
+    "seats": 41,
+    "menuItems": 34,
+    "photos": 23,
+    "boards": 20,
+    "wallpapers": 3,
+    "creatives": 24,
+    "adSeries": 4
+  },
+  "nodeCount": 207,
+  "edgeCount": 250,
+  "nodeTypes": {
+    "project": 1,
+    "section": 10,
+    "foundation": 6,
+    "component": 30,
+    "zone": 7,
+    "seat": 41,
+    "menuCategory": 4,
+    "menuItem": 34,
+    "photo": 23,
+    "board": 20,
+    "wallpaper": 3,
+    "series": 4,
+    "creative": 24
+  },
+  "relationCounts": {
+    "contains": 206,
+    "assignedTo": 41,
+    "availableAsBackground": 3
+  },
+  "relations": {
+    "contains": {
+      "label": "Содержит",
+      "inverse": "Входит в раздел",
+      "basis": "Явное включение в реестр, список или раздел опубликованного кита"
+    },
+    "assignedTo": {
+      "label": "Относится к зоне",
+      "inverse": "Включает место",
+      "basis": "Место присутствует в массиве seats соответствующей зоны"
+    },
+    "availableAsBackground": {
+      "label": "Доступно как фон",
+      "inverse": "Доступно в редакторе",
+      "basis": "Вариант есть в BACKGROUNDS редактора рабочего стола"
+    }
+  },
+  "sourceFields": [
+    {
+      "file": "tokens.json",
+      "fields": [
+        "version",
+        "defaultTheme",
+        "themes.platinum.background",
+        "themes.cold-violet.accent",
+        "typography",
+        "spacing",
+        "radii",
+        "viewports"
+      ]
+    },
+    {
+      "file": "registry.json",
+      "fields": [
+        "components.id",
+        "components.name",
+        "components.spec",
+        "components.preview"
+      ]
+    },
+    {
+      "file": "zone-data.js",
+      "fields": [
+        "zoneConfigurations.name",
+        "zoneConfigurations.seats",
+        "zoneConfigurations.description"
+      ]
+    },
+    {
+      "file": "menu-data.json",
+      "fields": [
+        "categories.id",
+        "categories.label",
+        "items.id",
+        "items.name",
+        "items.category",
+        "items.image"
+      ]
+    },
+    {
+      "file": "native-boards.json",
+      "fields": [
+        "boards.name",
+        "boards.width",
+        "boards.height",
+        "boards.png"
+      ]
+    },
+    {
+      "file": "rsya-registry.json",
+      "fields": [
+        "concepts.number",
+        "concepts.title",
+        "concepts.gallery",
+        "concepts.formats.format",
+        "concepts.formats.path"
+      ]
+    },
+    {
+      "file": "wallpapers-2026-10-05/manifest.json",
+      "fields": [
+        "variants.id",
+        "variants.number",
+        "variants.name",
+        "variants.file",
+        "variants.width",
+        "variants.height",
+        "variants.sourceWidth",
+        "variants.sourceHeight",
+        "variants.desktop.file"
+      ]
+    },
+    {
+      "file": "assets/photos/owner-originals/manifest.json",
+      "fields": [
+        "filename",
+        "width",
+        "height"
+      ]
+    },
+    {
+      "file": "desktop.js",
+      "fields": [
+        "BACKGROUNDS"
+      ]
+    }
+  ],
+  "verification": {
+    "allNodeIdsUnique": true,
+    "allEdgeEndpointsExist": true,
+    "linksCheckedAgainst": "public-release/highrate-ui-kit",
+    "scopeNote": "Только опубликованный кит и его артефакты Локальные исследовательские материалы не входят в этот граф"
+  },
+  "caveats": [
+    "Шаблон меню не является актуальным прайсом",
+    "Доступность мест в реальном времени не подключена",
+    "Холодный фиолетовый HEX является рабочим решением этой редакции",
+    "Размер 3840 × 2160 относится к экспорту обоев"
+  ]
+}

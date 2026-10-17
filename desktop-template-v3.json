@@ -1,0 +1,41 @@
+{
+  "version": 3,
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "background": {
+    "color": "#111111",
+    "accent": "#8d7bff"
+  },
+  "cabinet": {
+    "title": "Личный кабинет",
+    "x": 64,
+    "y": 210,
+    "width": 150,
+    "height": 150
+  },
+  "groups": {
+    "programs": {
+      "title": "ПРОГРАММЫ",
+      "x": 64,
+      "y": 430,
+      "width": 400,
+      "height": 460
+    },
+    "launchers": {
+      "title": "ЛАУНЧЕРЫ",
+      "x": 520,
+      "y": 430,
+      "width": 400,
+      "height": 460
+    },
+    "games": {
+      "title": "ИГРЫ",
+      "x": 1040,
+      "y": 210,
+      "width": 810,
+      "height": 680
+    }
+  }
+}

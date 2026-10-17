@@ -1,0 +1,6128 @@
+{
+  "schemaVersion": 1,
+  "generatedOn": "2026-10-17",
+  "title": "HIGHRATE / Граф дизайн-кита",
+  "scope": "Публичные материалы дизайн-кита",
+  "types": {
+    "project": "Проект",
+    "section": "Раздел",
+    "foundation": "Основа",
+    "component": "Компонент",
+    "zone": "Игровая зона",
+    "seat": "Игровое место",
+    "menuCategory": "Категория меню",
+    "menuItem": "Позиция меню",
+    "photo": "Фотография",
+    "board": "Доска Pencil",
+    "wallpaper": "Фон рабочего стола",
+    "series": "Серия рекламы",
+    "creative": "Рекламный креатив"
+  },
+  "relations": {
+    "contains": {
+      "label": "Содержит",
+      "inverse": "Входит в раздел",
+      "basis": "Явное включение в реестр, список или раздел опубликованного кита"
+    },
+    "assignedTo": {
+      "label": "Относится к зоне",
+      "inverse": "Включает место",
+      "basis": "Место присутствует в массиве seats соответствующей зоны"
+    },
+    "availableAsBackground": {
+      "label": "Доступно как фон",
+      "inverse": "Доступно в редакторе",
+      "basis": "Вариант есть в BACKGROUNDS редактора рабочего стола"
+    }
+  },
+  "summary": {
+    "components": 30,
+    "zones": 7,
+    "seats": 41,
+    "menuItems": 34,
+    "photos": 23,
+    "boards": 20,
+    "wallpapers": 3,
+    "creatives": 24,
+    "adSeries": 4
+  },
+  "nodes": [
+    {
+      "id": "kit",
+      "type": "project",
+      "label": "HIGHRATE UI kit",
+      "summary": "Публичная карта визуальной системы и материалов клуба",
+      "description": "Выбирай раздел, чтобы раскрыть его состав Все связи основаны на списках и реестрах сохранённой редакции дизайн-кита",
+      "links": [
+        {
+          "label": "Открыть дизайн-кит",
+          "href": "../index.html"
+        },
+        {
+          "label": "Токены JSON",
+          "href": "../tokens.json"
+        }
+      ],
+      "facts": [
+        [
+          "Компоненты",
+          "30"
+        ],
+        [
+          "Игровые зоны",
+          "7"
+        ],
+        [
+          "Места по схеме",
+          "41"
+        ],
+        [
+          "Нумерация рекламы",
+          "01–24"
+        ]
+      ]
+    },
+    {
+      "id": "foundation",
+      "type": "section",
+      "label": "Основа системы",
+      "summary": "Логотип цвета шрифты и семантические токены",
+      "description": "Логотип цвета шрифты и семантические токены",
+      "links": [
+        {
+          "label": "Открыть раздел",
+          "href": "../index.html#foundation"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "components",
+      "type": "section",
+      "label": "Компоненты",
+      "summary": "30 семейств со спецификациями и примерами",
+      "description": "30 семейств со спецификациями и примерами",
+      "links": [
+        {
+          "label": "Открыть раздел",
+          "href": "../index.html#components"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "zones",
+      "type": "section",
+      "label": "Игровые зоны",
+      "summary": "7 зон с перечнями мест и конфигурациями",
+      "description": "7 зон с перечнями мест и конфигурациями",
+      "links": [
+        {
+          "label": "Открыть раздел",
+          "href": "../index.html#zones"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "map",
+      "type": "section",
+      "label": "Карта мест",
+      "summary": "41 место по сохранённой схеме LANGAME",
+      "description": "41 место по сохранённой схеме LANGAME",
+      "links": [
+        {
+          "label": "Открыть раздел",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "menu",
+      "type": "section",
+      "label": "Меню",
+      "summary": "34 позиции в 4 категориях шаблона каталога",
+      "description": "34 позиции в 4 категориях шаблона каталога",
+      "links": [
+        {
+          "label": "Открыть раздел",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "desktop",
+      "type": "section",
+      "label": "Рабочий стол",
+      "summary": "Редактор пустых областей для настоящих ярлыков Windows",
+      "description": "Редактор пустых областей для настоящих ярлыков Windows",
+      "links": [
+        {
+          "label": "Открыть раздел",
+          "href": "../desktop.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "photos",
+      "type": "section",
+      "label": "Фотобанк",
+      "summary": "23 реальных фотографий клуба",
+      "description": "23 реальных фотографий клуба",
+      "links": [
+        {
+          "label": "Открыть раздел",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "boards",
+      "type": "section",
+      "label": "Доски Pencil",
+      "summary": "20 готовых PNG и общий PDF",
+      "description": "20 готовых PNG и общий PDF",
+      "links": [
+        {
+          "label": "Открыть раздел",
+          "href": "../index.html#native"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "wallpapers",
+      "type": "section",
+      "label": "Обои",
+      "summary": "3 фона с экспортами 3840 × 2160",
+      "description": "3 фона с экспортами 3840 × 2160",
+      "links": [
+        {
+          "label": "Открыть раздел",
+          "href": "../wallpapers-2026-10-05/"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "ads",
+      "type": "section",
+      "label": "Рекламные креативы",
+      "summary": "4 серии и сквозные номера 01–24",
+      "description": "4 серии и сквозные номера 01–24",
+      "links": [
+        {
+          "label": "Открыть раздел",
+          "href": "../rsya-d-2026-10-05/"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "tokens",
+      "type": "foundation",
+      "label": "Семантические токены",
+      "summary": "Рабочая спецификация версии 1.1.0",
+      "description": "Рабочая спецификация версии 1.1.0",
+      "links": [
+        {
+          "label": "Скачать токены",
+          "href": "../tokens.json"
+        }
+      ],
+      "facts": [
+        [
+          "Тема",
+          "cold-violet"
+        ]
+      ]
+    },
+    {
+      "id": "logo",
+      "type": "foundation",
+      "label": "Оригинальный логотип",
+      "summary": "Белый логотип HIGHRATE",
+      "description": "Белый логотип HIGHRATE",
+      "links": [
+        {
+          "label": "Открыть логотип",
+          "href": "../assets/logo-white-full.png"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "colors",
+      "type": "foundation",
+      "label": "Цветовая система",
+      "summary": "Тёмная основа и холодный фиолетовый",
+      "description": "Тёмная основа и холодный фиолетовый",
+      "links": [
+        {
+          "label": "Посмотреть цвета",
+          "href": "../index.html#foundation"
+        }
+      ],
+      "facts": [
+        [
+          "Фон",
+          "#111111"
+        ],
+        [
+          "Акцент",
+          "#8D7BFF"
+        ],
+        [
+          "Статус оттенка",
+          "Рабочий HEX этой редакции"
+        ]
+      ]
+    },
+    {
+      "id": "fonts",
+      "type": "foundation",
+      "label": "Типографика",
+      "summary": "Geologica / Unbounded",
+      "description": "Geologica / Unbounded",
+      "links": [
+        {
+          "label": "Посмотреть типографику",
+          "href": "../index.html#foundation"
+        }
+      ],
+      "facts": [
+        [
+          "Основной текст",
+          "Geologica"
+        ],
+        [
+          "Акцент",
+          "Unbounded"
+        ]
+      ]
+    },
+    {
+      "id": "spacing",
+      "type": "foundation",
+      "label": "Отступы и радиусы",
+      "summary": "4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 px",
+      "description": "4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 px",
+      "links": [
+        {
+          "label": "Посмотреть основу",
+          "href": "../index.html#foundation"
+        }
+      ],
+      "facts": [
+        [
+          "Радиус кнопки",
+          "4 px"
+        ],
+        [
+          "Радиус карточки",
+          "8 px"
+        ],
+        [
+          "Радиус панели",
+          "12 px"
+        ]
+      ]
+    },
+    {
+      "id": "viewports",
+      "type": "foundation",
+      "label": "Контрольные размеры",
+      "summary": "390 / 768 / 1440 / 1920 px",
+      "description": "390 / 768 / 1440 / 1920 px",
+      "links": [
+        {
+          "label": "Посмотреть экраны",
+          "href": "../index.html#patterns"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-button-primary",
+      "type": "component",
+      "label": "Основная кнопка",
+      "summary": "Действие · 54 px · 4 px radius · default / hover / pressed / disabled / focus",
+      "description": "Действие · 54 px · 4 px radius · default / hover / pressed / disabled / focus",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-button-primary"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-button-secondary",
+      "type": "component",
+      "label": "Вторичная кнопка",
+      "summary": "Действие · outline · 54 px · не конкурирует с основным CTA",
+      "description": "Действие · outline · 54 px · не конкурирует с основным CTA",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-button-secondary"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-button-size",
+      "type": "component",
+      "label": "Размеры кнопок",
+      "summary": "Compact 44 / default 54 · подпись по действию",
+      "description": "Compact 44 / default 54 · подпись по действию",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-button-size"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-icon-button",
+      "type": "component",
+      "label": "Иконка-кнопка",
+      "summary": "48 × 48 · доступное имя · hover / focus",
+      "description": "48 × 48 · доступное имя · hover / focus",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-icon-button"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-text-link",
+      "type": "component",
+      "label": "Текстовая ссылка",
+      "summary": "44 px цель · underline · внешний переход ↗",
+      "description": "44 px цель · underline · внешний переход ↗",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-text-link"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-badge",
+      "type": "component",
+      "label": "Метки и бейджи",
+      "summary": "Текст + цвет · статус / категория / источник",
+      "description": "Текст + цвет · статус / категория / источник",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-badge"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-input",
+      "type": "component",
+      "label": "Поле ввода",
+      "summary": "48 px · label / helper / error / disabled · mobile 16 px",
+      "description": "48 px · label / helper / error / disabled · mobile 16 px",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-input"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-input-error",
+      "type": "component",
+      "label": "Поле с ошибкой",
+      "summary": "Текст ошибки рядом с полем · aria-invalid",
+      "description": "Текст ошибки рядом с полем · aria-invalid",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-input-error"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-choice",
+      "type": "component",
+      "label": "Выбор и переключатель",
+      "summary": "Native input · keyboard · checked / unchecked / disabled",
+      "description": "Native input · keyboard · checked / unchecked / disabled",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-choice"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-segmented",
+      "type": "component",
+      "label": "Сегментированный контроль",
+      "summary": "Один выбор · 48 px · selected / default",
+      "description": "Один выбор · 48 px · selected / default",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-segmented"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-select",
+      "type": "component",
+      "label": "Список выбора",
+      "summary": "Native select · label · 48 px · длинные варианты",
+      "description": "Native select · label · 48 px · длинные варианты",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-select"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-toast",
+      "type": "component",
+      "label": "Уведомление",
+      "summary": "role=status · короткий результат · не заменяет ошибку формы",
+      "description": "role=status · короткий результат · не заменяет ошибку формы",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-toast"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-dialog",
+      "type": "component",
+      "label": "Модальное окно",
+      "summary": "Native dialog · focus trap / Escape / возврат фокуса",
+      "description": "Native dialog · focus trap / Escape / возврат фокуса",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-dialog"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-disclosure",
+      "type": "component",
+      "label": "Раскрывающийся блок",
+      "summary": "Native details · keyboard · без скрытых обязательных условий",
+      "description": "Native details · keyboard · без скрытых обязательных условий",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-disclosure"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-divider",
+      "type": "component",
+      "label": "Разделитель",
+      "summary": "1 px · семантическая граница · без лишних карточек",
+      "description": "1 px · семантическая граница · без лишних карточек",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-divider"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-loading",
+      "type": "component",
+      "label": "Загрузка",
+      "summary": "Skeleton · не имитирует успешный live ответ",
+      "description": "Skeleton · не имитирует успешный live ответ",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-loading"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-zone-card",
+      "type": "component",
+      "label": "Карточка зоны",
+      "summary": "Реальное фото · название · точная конфигурация места · CTA",
+      "description": "Реальное фото · название · точная конфигурация места · CTA",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-zone-card"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-booking-summary",
+      "type": "component",
+      "label": "Сводка сеанса",
+      "summary": "Дата · время · длительность · выбранный UUID · цена из каталога",
+      "description": "Дата · время · длительность · выбранный UUID · цена из каталога",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-booking-summary"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-seat",
+      "type": "component",
+      "label": "Маркер места",
+      "summary": "Номер LANGAME · UUID · default / selected / occupied / unknown",
+      "description": "Номер LANGAME · UUID · default / selected / occupied / unknown",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-seat"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-tariff-row",
+      "type": "component",
+      "label": "Строка тарифа",
+      "summary": "Зона · период · длительность · актуальная цена · условия",
+      "description": "Зона · период · длительность · актуальная цена · условия",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-tariff-row"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-product-row",
+      "type": "component",
+      "label": "Строка товара",
+      "summary": "Название · порция · цена · наличие · варианты",
+      "description": "Название · порция · цена · наличие · варианты",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-product-row"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-mobile-navigation",
+      "type": "component",
+      "label": "Мобильная навигация",
+      "summary": "Пять разделов · active / default · safe area",
+      "description": "Пять разделов · active / default · safe area",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-mobile-navigation"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-header",
+      "type": "component",
+      "label": "Шапка",
+      "summary": "Оригинальный логотип · основные разделы · мобильное меню",
+      "description": "Оригинальный логотип · основные разделы · мобильное меню",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-header"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-story-template",
+      "type": "component",
+      "label": "Шаблон Stories",
+      "summary": "1080 × 1920 · реальное фото · короткий заголовок · действие",
+      "description": "1080 × 1920 · реальное фото · короткий заголовок · действие",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-story-template"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-post-template",
+      "type": "component",
+      "label": "Шаблон поста",
+      "summary": "1080 × 1080 · реальные фото · заголовок без точки",
+      "description": "1080 × 1080 · реальные фото · заголовок без точки",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-post-template"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-tv-template",
+      "type": "component",
+      "label": "Меню на TV",
+      "summary": "1920 × 1080 · крупные фото · название · порция · цена",
+      "description": "1920 × 1080 · крупные фото · название · порция · цена",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-tv-template"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-iconography",
+      "type": "component",
+      "label": "Система иконок",
+      "summary": "Lucide · 1.75 stroke · SVG · подпись действия",
+      "description": "Lucide · 1.75 stroke · SVG · подпись действия",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-iconography"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-desktop-block",
+      "type": "component",
+      "label": "Область ярлыков Windows",
+      "summary": "Пустой div · расположение фоновых областей · реальные .lnk устанавливаются в Windows",
+      "description": "Пустой div · расположение фоновых областей · реальные .lnk устанавливаются в Windows",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-desktop-block"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-shortcut-slot",
+      "type": "component",
+      "label": "Слот личного кабинета",
+      "summary": "Пустая область под Windows .lnk · фон без фотографии и сетки",
+      "description": "Пустая область под Windows .lnk · фон без фотографии и сетки",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-shortcut-slot"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "component-menu-photo",
+      "type": "component",
+      "label": "Блюдо с фотографией",
+      "summary": "Исходное фото · editable title · цена и порция из каталога",
+      "description": "Исходное фото · editable title · цена и порция из каталога",
+      "links": [
+        {
+          "label": "Посмотреть компонент",
+          "href": "../index.html#c-menu-photo"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "zone-solo",
+      "type": "zone",
+      "label": "SOLO",
+      "summary": "5 мест · ПК 34, 35, 36, 37, 39",
+      "description": "RTX 5070 Ti · Ryzen 7 7800X3D · ПК 34–35: Alienware 24″ 500 Hz IPS · ПК 36, 37, 39: Alienware 27″ 2K 360 Hz OLED",
+      "links": [
+        {
+          "label": "Открыть игровые зоны",
+          "href": "../index.html#zones"
+        }
+      ],
+      "facts": [
+        [
+          "Места",
+          "34, 35, 36, 37, 39"
+        ]
+      ]
+    },
+    {
+      "id": "seat-34",
+      "type": "seat",
+      "label": "ПК 34",
+      "summary": "SOLO",
+      "description": "SOLO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SOLO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-35",
+      "type": "seat",
+      "label": "ПК 35",
+      "summary": "SOLO",
+      "description": "SOLO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SOLO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-36",
+      "type": "seat",
+      "label": "ПК 36",
+      "summary": "SOLO",
+      "description": "SOLO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SOLO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-37",
+      "type": "seat",
+      "label": "ПК 37",
+      "summary": "SOLO",
+      "description": "SOLO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SOLO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-39",
+      "type": "seat",
+      "label": "ПК 39",
+      "summary": "SOLO",
+      "description": "SOLO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SOLO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "zone-duo",
+      "type": "zone",
+      "label": "DUO",
+      "summary": "4 мест · ПК 31, 32, 40, 41",
+      "description": "RTX 5070 Ti · Ryzen 7 7800X3D · ПК 31–32: Alienware 24″ 500 Hz IPS · ПК 40–41: MSI 27″ 500 Hz OLED",
+      "links": [
+        {
+          "label": "Открыть игровые зоны",
+          "href": "../index.html#zones"
+        }
+      ],
+      "facts": [
+        [
+          "Места",
+          "31, 32, 40, 41"
+        ]
+      ]
+    },
+    {
+      "id": "seat-31",
+      "type": "seat",
+      "label": "ПК 31",
+      "summary": "DUO",
+      "description": "DUO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "DUO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-32",
+      "type": "seat",
+      "label": "ПК 32",
+      "summary": "DUO",
+      "description": "DUO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "DUO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-40",
+      "type": "seat",
+      "label": "ПК 40",
+      "summary": "DUO",
+      "description": "DUO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "DUO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-41",
+      "type": "seat",
+      "label": "ПК 41",
+      "summary": "DUO",
+      "description": "DUO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "DUO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "zone-trio",
+      "type": "zone",
+      "label": "TRIO",
+      "summary": "3 мест · ПК 01, 02, 03",
+      "description": "RTX 5070 · Ryzen 7 7800X3D · MSI 27″ 2K 320 Hz · Logitech Superlight V2",
+      "links": [
+        {
+          "label": "Открыть игровые зоны",
+          "href": "../index.html#zones"
+        }
+      ],
+      "facts": [
+        [
+          "Места",
+          "01, 02, 03"
+        ]
+      ]
+    },
+    {
+      "id": "seat-01",
+      "type": "seat",
+      "label": "ПК 01",
+      "summary": "TRIO",
+      "description": "TRIO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "TRIO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-02",
+      "type": "seat",
+      "label": "ПК 02",
+      "summary": "TRIO",
+      "description": "TRIO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "TRIO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-03",
+      "type": "seat",
+      "label": "ПК 03",
+      "summary": "TRIO",
+      "description": "TRIO",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "TRIO"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "zone-squad",
+      "type": "zone",
+      "label": "SQUAD",
+      "summary": "12 мест · ПК 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15",
+      "description": "RTX 5070 · Ryzen 7 7800X3D · ПК 4–5, 8–11: MSI 27″ 2K 320 Hz · ПК 6–7, 12–15: MSI 24″ 300 Hz IPS",
+      "links": [
+        {
+          "label": "Открыть игровые зоны",
+          "href": "../index.html#zones"
+        }
+      ],
+      "facts": [
+        [
+          "Места",
+          "04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15"
+        ]
+      ]
+    },
+    {
+      "id": "seat-04",
+      "type": "seat",
+      "label": "ПК 04",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-05",
+      "type": "seat",
+      "label": "ПК 05",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-06",
+      "type": "seat",
+      "label": "ПК 06",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-07",
+      "type": "seat",
+      "label": "ПК 07",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-08",
+      "type": "seat",
+      "label": "ПК 08",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-09",
+      "type": "seat",
+      "label": "ПК 09",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-10",
+      "type": "seat",
+      "label": "ПК 10",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-11",
+      "type": "seat",
+      "label": "ПК 11",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-12",
+      "type": "seat",
+      "label": "ПК 12",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-13",
+      "type": "seat",
+      "label": "ПК 13",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-14",
+      "type": "seat",
+      "label": "ПК 14",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-15",
+      "type": "seat",
+      "label": "ПК 15",
+      "summary": "SQUAD",
+      "description": "SQUAD",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SQUAD"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "zone-bootcamp",
+      "type": "zone",
+      "label": "BOOTCAMP",
+      "summary": "10 мест · ПК 16, 17, 18, 19, 20, 26, 27, 28, 29, 30",
+      "description": "RTX 5060 Ti · Ryzen 7 7700 · ПК 16–20: MSI 27″ 320 Hz IPS · ПК 26–30: MSI 24″ 300 Hz IPS",
+      "links": [
+        {
+          "label": "Открыть игровые зоны",
+          "href": "../index.html#zones"
+        }
+      ],
+      "facts": [
+        [
+          "Места",
+          "16, 17, 18, 19, 20, 26, 27, 28, 29, 30"
+        ]
+      ]
+    },
+    {
+      "id": "seat-16",
+      "type": "seat",
+      "label": "ПК 16",
+      "summary": "BOOTCAMP",
+      "description": "BOOTCAMP",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "BOOTCAMP"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-17",
+      "type": "seat",
+      "label": "ПК 17",
+      "summary": "BOOTCAMP",
+      "description": "BOOTCAMP",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "BOOTCAMP"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-18",
+      "type": "seat",
+      "label": "ПК 18",
+      "summary": "BOOTCAMP",
+      "description": "BOOTCAMP",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "BOOTCAMP"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-19",
+      "type": "seat",
+      "label": "ПК 19",
+      "summary": "BOOTCAMP",
+      "description": "BOOTCAMP",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "BOOTCAMP"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-20",
+      "type": "seat",
+      "label": "ПК 20",
+      "summary": "BOOTCAMP",
+      "description": "BOOTCAMP",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "BOOTCAMP"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-26",
+      "type": "seat",
+      "label": "ПК 26",
+      "summary": "BOOTCAMP",
+      "description": "BOOTCAMP",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "BOOTCAMP"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-27",
+      "type": "seat",
+      "label": "ПК 27",
+      "summary": "BOOTCAMP",
+      "description": "BOOTCAMP",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "BOOTCAMP"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-28",
+      "type": "seat",
+      "label": "ПК 28",
+      "summary": "BOOTCAMP",
+      "description": "BOOTCAMP",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "BOOTCAMP"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-29",
+      "type": "seat",
+      "label": "ПК 29",
+      "summary": "BOOTCAMP",
+      "description": "BOOTCAMP",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "BOOTCAMP"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-30",
+      "type": "seat",
+      "label": "ПК 30",
+      "summary": "BOOTCAMP",
+      "description": "BOOTCAMP",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "BOOTCAMP"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "zone-cs2-room",
+      "type": "zone",
+      "label": "CS2 ROOM",
+      "summary": "5 мест · ПК 21, 22, 23, 24, 25",
+      "description": "CSROOM в схеме LANGAME · RTX 5070 Ti · Ryzen 7 9800X3D · Zowie 24″ 400 Hz TN",
+      "links": [
+        {
+          "label": "Открыть игровые зоны",
+          "href": "../index.html#zones"
+        }
+      ],
+      "facts": [
+        [
+          "Места",
+          "21, 22, 23, 24, 25"
+        ]
+      ]
+    },
+    {
+      "id": "seat-21",
+      "type": "seat",
+      "label": "ПК 21",
+      "summary": "CS2 ROOM",
+      "description": "CS2 ROOM",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "CS2 ROOM"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-22",
+      "type": "seat",
+      "label": "ПК 22",
+      "summary": "CS2 ROOM",
+      "description": "CS2 ROOM",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "CS2 ROOM"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-23",
+      "type": "seat",
+      "label": "ПК 23",
+      "summary": "CS2 ROOM",
+      "description": "CS2 ROOM",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "CS2 ROOM"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-24",
+      "type": "seat",
+      "label": "ПК 24",
+      "summary": "CS2 ROOM",
+      "description": "CS2 ROOM",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "CS2 ROOM"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-25",
+      "type": "seat",
+      "label": "ПК 25",
+      "summary": "CS2 ROOM",
+      "description": "CS2 ROOM",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "CS2 ROOM"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "zone-solo-plus",
+      "type": "zone",
+      "label": "SOLO PLUS",
+      "summary": "2 мест · ПК 33, 38",
+      "description": "RTX 5070 Ti · Ryzen 7 7800X3D / 9800X3D · ПК 33: Zowie 24″ 400 Hz Fast TN · ПК 38: MSI 32″ 4K 240 Hz OLED",
+      "links": [
+        {
+          "label": "Открыть игровые зоны",
+          "href": "../index.html#zones"
+        }
+      ],
+      "facts": [
+        [
+          "Места",
+          "33, 38"
+        ]
+      ]
+    },
+    {
+      "id": "seat-33",
+      "type": "seat",
+      "label": "ПК 33",
+      "summary": "SOLO PLUS",
+      "description": "SOLO PLUS",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SOLO PLUS"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "seat-38",
+      "type": "seat",
+      "label": "ПК 38",
+      "summary": "SOLO PLUS",
+      "description": "SOLO PLUS",
+      "links": [
+        {
+          "label": "Открыть карту",
+          "href": "../index.html#map"
+        }
+      ],
+      "facts": [
+        [
+          "Зона",
+          "SOLO PLUS"
+        ],
+        [
+          "Доступность",
+          "Live данные не подключены"
+        ]
+      ]
+    },
+    {
+      "id": "menu-category-food",
+      "type": "menuCategory",
+      "label": "Кухня",
+      "summary": "10 позиций в шаблоне меню",
+      "description": "10 позиций в шаблоне меню",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "menu-beef",
+      "type": "menuItem",
+      "label": "Бефстроганов в сливках с картофельным пюре",
+      "summary": "Кухня",
+      "description": "Кухня",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        },
+        {
+          "label": "Фотография блюда",
+          "href": "../assets/menu/7.png"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-goulash",
+      "type": "menuItem",
+      "label": "Гуляш с картофелем, запечённым в травах",
+      "summary": "Кухня",
+      "description": "Кухня",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        },
+        {
+          "label": "Фотография блюда",
+          "href": "../assets/menu/6.png"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-chicken",
+      "type": "menuItem",
+      "label": "Цыплёнок в кисло-сладком соусе",
+      "summary": "Кухня",
+      "description": "Кухня",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        },
+        {
+          "label": "Фотография блюда",
+          "href": "../assets/menu/4.png"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-pilaf",
+      "type": "menuItem",
+      "label": "Плов с курицей",
+      "summary": "Кухня",
+      "description": "Кухня",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        },
+        {
+          "label": "Фотография блюда",
+          "href": "../assets/menu/8.png"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-carbonara",
+      "type": "menuItem",
+      "label": "Карбонара с копчёным цыплёнком",
+      "summary": "Кухня",
+      "description": "Кухня",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        },
+        {
+          "label": "Фотография блюда",
+          "href": "../assets/menu/1.png"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-pasta",
+      "type": "menuItem",
+      "label": "Паста с цыплёнком и грибами",
+      "summary": "Кухня",
+      "description": "Кухня",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        },
+        {
+          "label": "Фотография блюда",
+          "href": "../assets/menu/2.png"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-udon",
+      "type": "menuItem",
+      "label": "Удон с курицей и овощами",
+      "summary": "Кухня",
+      "description": "Кухня",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        },
+        {
+          "label": "Фотография блюда",
+          "href": "../assets/menu/udon.png"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-meatballs",
+      "type": "menuItem",
+      "label": "Фрикадельки с рисом и соусом «Чёрный перец»",
+      "summary": "Кухня",
+      "description": "Кухня",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        },
+        {
+          "label": "Фотография блюда",
+          "href": "../assets/menu/3.png"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-dumplings-fried",
+      "type": "menuItem",
+      "label": "Пельмени куриные жареные",
+      "summary": "Кухня",
+      "description": "Кухня",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        },
+        {
+          "label": "Фотография блюда",
+          "href": "../assets/menu/10.png"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-dumplings-cream",
+      "type": "menuItem",
+      "label": "Пельмени куриные в сливочном соусе",
+      "summary": "Кухня",
+      "description": "Кухня",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        },
+        {
+          "label": "Фотография блюда",
+          "href": "../assets/menu/9.png"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-category-tea",
+      "type": "menuCategory",
+      "label": "Чай",
+      "summary": "9 позиций в шаблоне меню",
+      "description": "9 позиций в шаблоне меню",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "menu-tea-milk-oolong",
+      "type": "menuItem",
+      "label": "Молочный улун",
+      "summary": "Чай",
+      "description": "Чай",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-tea-bergamot",
+      "type": "menuItem",
+      "label": "Чёрный с бергамотом",
+      "summary": "Чай",
+      "description": "Чай",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-tea-buckwheat",
+      "type": "menuItem",
+      "label": "Гречишный персик — апельсин",
+      "summary": "Чай",
+      "description": "Чай",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-tea-sea-buckthorn",
+      "type": "menuItem",
+      "label": "Фруктовый облепиха — апельсин",
+      "summary": "Чай",
+      "description": "Чай",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-tea-raspberry-mint",
+      "type": "menuItem",
+      "label": "Травяной малина — мята",
+      "summary": "Чай",
+      "description": "Чай",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-tea-puer",
+      "type": "menuItem",
+      "label": "Шу пуэр",
+      "summary": "Чай",
+      "description": "Чай",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-tea-hibiscus",
+      "type": "menuItem",
+      "label": "Фруктовый каркаде",
+      "summary": "Чай",
+      "description": "Чай",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-tea-berries",
+      "type": "menuItem",
+      "label": "Чёрный с лесными ягодами",
+      "summary": "Чай",
+      "description": "Чай",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-tea-da-hong-pao",
+      "type": "menuItem",
+      "label": "Улун Да Хун Пао",
+      "summary": "Чай",
+      "description": "Чай",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-category-drinks",
+      "type": "menuCategory",
+      "label": "Напитки",
+      "summary": "13 позиций в шаблоне меню",
+      "description": "13 позиций в шаблоне меню",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "menu-burn",
+      "type": "menuItem",
+      "label": "BURN",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-adrenaline",
+      "type": "menuItem",
+      "label": "ADRENALINE",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-lit",
+      "type": "menuItem",
+      "label": "LIT",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-gorilla",
+      "type": "menuItem",
+      "label": "GORILLA",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-red-bull",
+      "type": "menuItem",
+      "label": "RED BULL",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-hqd",
+      "type": "menuItem",
+      "label": "HQD",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-monster",
+      "type": "menuItem",
+      "label": "MONSTER",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-arizona",
+      "type": "menuItem",
+      "label": "ARIZONA",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-lipton",
+      "type": "menuItem",
+      "label": "LIPTON",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-natakhtari",
+      "type": "menuItem",
+      "label": "НАТАХТАРИ",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-mountain-dew",
+      "type": "menuItem",
+      "label": "MOUNTAIN DEW",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-cola",
+      "type": "menuItem",
+      "label": "COLA",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-water",
+      "type": "menuItem",
+      "label": "СВЯТОЙ ИСТОЧНИК",
+      "summary": "Напитки",
+      "description": "Напитки",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-category-services",
+      "type": "menuCategory",
+      "label": "Услуги",
+      "summary": "2 позиций в шаблоне меню",
+      "description": "2 позиций в шаблоне меню",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": []
+    },
+    {
+      "id": "menu-electronic-bowl",
+      "type": "menuItem",
+      "label": "Кальян — электронная чаша",
+      "summary": "Услуги",
+      "description": "Услуги",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "menu-cigar-tobacco",
+      "type": "menuItem",
+      "label": "Сигарный табак",
+      "summary": "Услуги",
+      "description": "Услуги",
+      "links": [
+        {
+          "label": "Открыть меню",
+          "href": "../menu.html"
+        }
+      ],
+      "facts": [
+        [
+          "Цена",
+          "Не задана в публичном шаблоне"
+        ],
+        [
+          "Наличие",
+          "Не подключено"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3025",
+      "type": "photo",
+      "label": "IMG_3025",
+      "summary": "4284 × 5712 · JPEG",
+      "description": "4284 × 5712 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3025.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4284 × 5712"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3026",
+      "type": "photo",
+      "label": "IMG_3026",
+      "summary": "3484 × 4645 · JPEG",
+      "description": "3484 × 4645 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3026.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "3484 × 4645"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3027",
+      "type": "photo",
+      "label": "IMG_3027",
+      "summary": "4095 × 5460 · JPEG",
+      "description": "4095 × 5460 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3027.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4095 × 5460"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3028",
+      "type": "photo",
+      "label": "IMG_3028",
+      "summary": "3715 × 4954 · JPEG",
+      "description": "3715 × 4954 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3028.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "3715 × 4954"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3077",
+      "type": "photo",
+      "label": "IMG_3077",
+      "summary": "4284 × 5712 · JPEG",
+      "description": "4284 × 5712 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3077.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4284 × 5712"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3078",
+      "type": "photo",
+      "label": "IMG_3078",
+      "summary": "4284 × 5712 · JPEG",
+      "description": "4284 × 5712 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3078.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4284 × 5712"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3079",
+      "type": "photo",
+      "label": "IMG_3079",
+      "summary": "4284 × 5712 · JPEG",
+      "description": "4284 × 5712 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3079.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4284 × 5712"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3081",
+      "type": "photo",
+      "label": "IMG_3081",
+      "summary": "4131 × 5508 · JPEG",
+      "description": "4131 × 5508 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3081.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4131 × 5508"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3082",
+      "type": "photo",
+      "label": "IMG_3082",
+      "summary": "4284 × 5712 · JPEG",
+      "description": "4284 × 5712 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3082.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4284 × 5712"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3083",
+      "type": "photo",
+      "label": "IMG_3083",
+      "summary": "4125 × 5500 · JPEG",
+      "description": "4125 × 5500 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3083.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4125 × 5500"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3084",
+      "type": "photo",
+      "label": "IMG_3084",
+      "summary": "4284 × 5712 · JPEG",
+      "description": "4284 × 5712 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3084.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4284 × 5712"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3085",
+      "type": "photo",
+      "label": "IMG_3085",
+      "summary": "2826 × 3768 · JPEG",
+      "description": "2826 × 3768 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3085.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "2826 × 3768"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3086",
+      "type": "photo",
+      "label": "IMG_3086",
+      "summary": "3511 × 4681 · JPEG",
+      "description": "3511 × 4681 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3086.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "3511 × 4681"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3087",
+      "type": "photo",
+      "label": "IMG_3087",
+      "summary": "4284 × 5712 · JPEG",
+      "description": "4284 × 5712 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3087.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4284 × 5712"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3088",
+      "type": "photo",
+      "label": "IMG_3088",
+      "summary": "4284 × 5712 · JPEG",
+      "description": "4284 × 5712 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3088.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4284 × 5712"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3089",
+      "type": "photo",
+      "label": "IMG_3089",
+      "summary": "3797 × 5063 · JPEG",
+      "description": "3797 × 5063 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3089.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "3797 × 5063"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3090",
+      "type": "photo",
+      "label": "IMG_3090",
+      "summary": "3809 × 5079 · JPEG",
+      "description": "3809 × 5079 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3090.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "3809 × 5079"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3091",
+      "type": "photo",
+      "label": "IMG_3091",
+      "summary": "3834 × 5112 · JPEG",
+      "description": "3834 × 5112 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3091.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "3834 × 5112"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3092",
+      "type": "photo",
+      "label": "IMG_3092",
+      "summary": "3918 × 5224 · JPEG",
+      "description": "3918 × 5224 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3092.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "3918 × 5224"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3093",
+      "type": "photo",
+      "label": "IMG_3093",
+      "summary": "4202 × 5603 · JPEG",
+      "description": "4202 × 5603 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3093.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4202 × 5603"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3095",
+      "type": "photo",
+      "label": "IMG_3095",
+      "summary": "3815 × 5086 · JPEG",
+      "description": "3815 × 5086 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3095.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "3815 × 5086"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3348",
+      "type": "photo",
+      "label": "IMG_3348",
+      "summary": "4284 × 5712 · JPEG",
+      "description": "4284 × 5712 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3348.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4284 × 5712"
+        ]
+      ]
+    },
+    {
+      "id": "photo-IMG_3349",
+      "type": "photo",
+      "label": "IMG_3349",
+      "summary": "4131 × 5508 · JPEG",
+      "description": "4131 × 5508 · JPEG",
+      "links": [
+        {
+          "label": "Открыть фотографию",
+          "href": "../assets/photos/owner-originals/IMG_3349.jpg"
+        },
+        {
+          "label": "Фотобанк",
+          "href": "../photos.html"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "4131 × 5508"
+        ]
+      ]
+    },
+    {
+      "id": "board-01",
+      "type": "board",
+      "label": "Доска 01 / Основа визуальной системы",
+      "summary": "1440 × 1084 · PNG",
+      "description": "1440 × 1084 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/rpyxb.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1440 × 1084"
+        ]
+      ]
+    },
+    {
+      "id": "board-02",
+      "type": "board",
+      "label": "Доска 02 / Компоненты — новая система",
+      "summary": "1440 × 1660 · PNG",
+      "description": "1440 × 1660 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/yGdND.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1440 × 1660"
+        ]
+      ]
+    },
+    {
+      "id": "board-03",
+      "type": "board",
+      "label": "Доска 03 / Семь зон и карточки",
+      "summary": "1440 × 1810 · PNG",
+      "description": "1440 × 1810 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/T9k5VH.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1440 × 1810"
+        ]
+      ]
+    },
+    {
+      "id": "board-04",
+      "type": "board",
+      "label": "Доска 04 / Карта, сеанс и обратная связь",
+      "summary": "1440 × 1380 · PNG",
+      "description": "1440 × 1380 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/zpXHf.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1440 × 1380"
+        ]
+      ]
+    },
+    {
+      "id": "board-05",
+      "type": "board",
+      "label": "Доска 05 / Тарифы, меню и диалог",
+      "summary": "1440 × 1360 · PNG",
+      "description": "1440 × 1360 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/RMSZb.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1440 × 1360"
+        ]
+      ]
+    },
+    {
+      "id": "board-06",
+      "type": "board",
+      "label": "Доска 06 / Mobile и Desktop",
+      "summary": "1440 × 1220 · PNG",
+      "description": "1440 × 1220 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/po8VO.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1440 × 1220"
+        ]
+      ]
+    },
+    {
+      "id": "board-07",
+      "type": "board",
+      "label": "Доска 07 / Иконки и правила использования",
+      "summary": "1440 × 980 · PNG",
+      "description": "1440 × 980 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/ZWmt0.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1440 × 980"
+        ]
+      ]
+    },
+    {
+      "id": "board-08",
+      "type": "board",
+      "label": "Доска 08 / HIGHRATE TEMPLATE / Stories 1080×1920",
+      "summary": "1080 × 1920 · PNG",
+      "description": "1080 × 1920 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/kprDv.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1080 × 1920"
+        ]
+      ]
+    },
+    {
+      "id": "board-09",
+      "type": "board",
+      "label": "Доска 09 / HIGHRATE TEMPLATE / Пост 1080×1080",
+      "summary": "1080 × 1080 · PNG",
+      "description": "1080 × 1080 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/jqRUX.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1080 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "board-10",
+      "type": "board",
+      "label": "Доска 10 / HIGHRATE TEMPLATE / TV меню 1920×1080",
+      "summary": "1920 × 1080 · PNG",
+      "description": "1920 × 1080 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/S3gMO.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "board-11",
+      "type": "board",
+      "label": "Доска 11 / HIGHRATE MENU / Кухня 01 — новая система",
+      "summary": "1920 × 1080 · PNG",
+      "description": "1920 × 1080 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/i7aZ5q.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "board-12",
+      "type": "board",
+      "label": "Доска 12 / HIGHRATE MENU / Кухня 02 — новая система",
+      "summary": "1920 × 1080 · PNG",
+      "description": "1920 × 1080 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/XBVFE.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "board-13",
+      "type": "board",
+      "label": "Доска 13 / HIGHRATE WORKSPACE / Фирменные обои для ярлыков Windows",
+      "summary": "1920 × 1080 · PNG",
+      "description": "1920 × 1080 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/vOOpH.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "board-14",
+      "type": "board",
+      "label": "Доска 14 / HIGHRATE MENU / Напитки — новая система",
+      "summary": "1920 × 1080 · PNG",
+      "description": "1920 × 1080 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/FBvnA.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "board-15",
+      "type": "board",
+      "label": "Доска 15 / HIGHRATE MENU / Чай и услуги — новая система",
+      "summary": "1920 × 1080 · PNG",
+      "description": "1920 × 1080 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/h9Iz9h.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "board-16",
+      "type": "board",
+      "label": "Доска 16 / HIGHRATE MAP / План клуба TV — LANGAME",
+      "summary": "1920 × 1080 · PNG",
+      "description": "1920 × 1080 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/xd89u.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "board-17",
+      "type": "board",
+      "label": "Доска 17 / HIGHRATE LOCKSCREEN / Фирменный фон без фотографии",
+      "summary": "1920 × 1080 · PNG",
+      "description": "1920 × 1080 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/e5HD8.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "board-18",
+      "type": "board",
+      "label": "Доска 18 / HIGHRATE PRINT / Тарифы A4 — новая система",
+      "summary": "842 × 1191 · PNG",
+      "description": "842 × 1191 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/PJqnK.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "842 × 1191"
+        ]
+      ]
+    },
+    {
+      "id": "board-19",
+      "type": "board",
+      "label": "Доска 19 / Фото блюда и пустые области для ярлыков Windows",
+      "summary": "1440 × 1140 · PNG",
+      "description": "1440 × 1140 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/IJS38.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1440 × 1140"
+        ]
+      ]
+    },
+    {
+      "id": "board-20",
+      "type": "board",
+      "label": "Доска 20 / Офферы — комфорт, железо, сервис",
+      "summary": "1440 × 1640 · PNG",
+      "description": "1440 × 1640 · PNG",
+      "links": [
+        {
+          "label": "Открыть доску PNG",
+          "href": "../exports/qWQnk.png"
+        },
+        {
+          "label": "Все доски PDF",
+          "href": "../exports/export.pdf"
+        }
+      ],
+      "facts": [
+        [
+          "Размер",
+          "1440 × 1640"
+        ]
+      ]
+    },
+    {
+      "id": "wallpaper-impulse",
+      "type": "wallpaper",
+      "label": "01 / Импульс",
+      "summary": "3840 × 2160 · PNG",
+      "description": "Абстрактный фон с экспортом 3840 × 2160 Это размер готового файла, а не заявление о нативной детализации исходного образа",
+      "links": [
+        {
+          "label": "Галерея обоев",
+          "href": "../wallpapers-2026-10-05/"
+        },
+        {
+          "label": "Чистый фон",
+          "href": "../assets/desktop/wallpapers-2026-10-05/01-impulse-3840x2160.png"
+        },
+        {
+          "label": "Готовый рабочий стол",
+          "href": "../wallpapers-2026-10-05/desktop/01-impulse-desktop-3840x2160.png"
+        }
+      ],
+      "facts": [
+        [
+          "Экспорт",
+          "3840 × 2160"
+        ],
+        [
+          "Исходный образ",
+          "1672 × 941"
+        ]
+      ]
+    },
+    {
+      "id": "wallpaper-monolith",
+      "type": "wallpaper",
+      "label": "02 / Монолит",
+      "summary": "3840 × 2160 · PNG",
+      "description": "Абстрактный фон с экспортом 3840 × 2160 Это размер готового файла, а не заявление о нативной детализации исходного образа",
+      "links": [
+        {
+          "label": "Галерея обоев",
+          "href": "../wallpapers-2026-10-05/"
+        },
+        {
+          "label": "Чистый фон",
+          "href": "../assets/desktop/wallpapers-2026-10-05/02-monolith-3840x2160.png"
+        },
+        {
+          "label": "Готовый рабочий стол",
+          "href": "../wallpapers-2026-10-05/desktop/02-monolith-desktop-3840x2160.png"
+        }
+      ],
+      "facts": [
+        [
+          "Экспорт",
+          "3840 × 2160"
+        ],
+        [
+          "Исходный образ",
+          "1672 × 941"
+        ]
+      ]
+    },
+    {
+      "id": "wallpaper-flow",
+      "type": "wallpaper",
+      "label": "03 / Поток",
+      "summary": "3840 × 2160 · PNG",
+      "description": "Абстрактный фон с экспортом 3840 × 2160 Это размер готового файла, а не заявление о нативной детализации исходного образа",
+      "links": [
+        {
+          "label": "Галерея обоев",
+          "href": "../wallpapers-2026-10-05/"
+        },
+        {
+          "label": "Чистый фон",
+          "href": "../assets/desktop/wallpapers-2026-10-05/03-flow-3840x2160.png"
+        },
+        {
+          "label": "Готовый рабочий стол",
+          "href": "../wallpapers-2026-10-05/desktop/03-flow-desktop-3840x2160.png"
+        }
+      ],
+      "facts": [
+        [
+          "Экспорт",
+          "3840 × 2160"
+        ],
+        [
+          "Исходный образ",
+          "1672 × 941"
+        ]
+      ]
+    },
+    {
+      "id": "series-01-06",
+      "type": "series",
+      "label": "Креативы 01–06",
+      "summary": "6 вариантов · квадрат и широкий формат",
+      "description": "6 вариантов · квадрат и широкий формат",
+      "links": [
+        {
+          "label": "Открыть серию",
+          "href": "../rsya-2026-10-05/"
+        }
+      ],
+      "facts": [
+        [
+          "Номера",
+          "01–06"
+        ]
+      ]
+    },
+    {
+      "id": "creative-01",
+      "type": "creative",
+      "label": "01 / Играй с комфортом",
+      "summary": "Серия 01–06 · два формата",
+      "description": "Серия 01–06 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-01-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-01-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "01"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-02",
+      "type": "creative",
+      "label": "02 / Сильное железо для твоей игры",
+      "summary": "Серия 01–06 · два формата",
+      "description": "Серия 01–06 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-02-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-02-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "02"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-03",
+      "type": "creative",
+      "label": "03 / Сервис высокого уровня",
+      "summary": "Серия 01–06 · два формата",
+      "description": "Серия 01–06 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-03-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-03-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "03"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-04",
+      "type": "creative",
+      "label": "04 / Играй вместе со своими",
+      "summary": "Серия 01–06 · два формата",
+      "description": "Серия 01–06 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-04-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-04-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "04"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-05",
+      "type": "creative",
+      "label": "05 / Выбери свой формат",
+      "summary": "Серия 01–06 · два формата",
+      "description": "Серия 01–06 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-05-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-05-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "05"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-06",
+      "type": "creative",
+      "label": "06 / Собери свой состав",
+      "summary": "Серия 01–06 · два формата",
+      "description": "Серия 01–06 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-06-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-2026-10-05/assets/RSYA-06-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "06"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "series-07-12",
+      "type": "series",
+      "label": "Креативы 07–12",
+      "summary": "6 вариантов · квадрат и широкий формат",
+      "description": "6 вариантов · квадрат и широкий формат",
+      "links": [
+        {
+          "label": "Открыть серию",
+          "href": "../rsya-b-2026-10-05/"
+        }
+      ],
+      "facts": [
+        [
+          "Номера",
+          "07–12"
+        ]
+      ]
+    },
+    {
+      "id": "creative-07",
+      "type": "creative",
+      "label": "07 / Из чата — в HIGHRATE",
+      "summary": "Серия 07–12 · два формата",
+      "description": "Серия 07–12 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-b-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-07-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-07-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "07"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-08",
+      "type": "creative",
+      "label": "08 / Пора сменить режим",
+      "summary": "Серия 07–12 · два формата",
+      "description": "Серия 07–12 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-b-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-08-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-08-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "08"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-09",
+      "type": "creative",
+      "label": "09 / Устройся как надо",
+      "summary": "Серия 07–12 · два формата",
+      "description": "Серия 07–12 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-b-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-09-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-09-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "09"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-10",
+      "type": "creative",
+      "label": "10 / Здесь твой вечер важен",
+      "summary": "Серия 07–12 · два формата",
+      "description": "Серия 07–12 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-b-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-10-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-10-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "10"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-11",
+      "type": "creative",
+      "label": "11 / Мощно + удобно",
+      "summary": "Серия 07–12 · два формата",
+      "description": "Серия 07–12 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-b-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-11-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-11-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "11"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-12",
+      "type": "creative",
+      "label": "12 / План на двоих",
+      "summary": "Серия 07–12 · два формата",
+      "description": "Серия 07–12 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-b-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-12-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-b-2026-10-05/assets/RSYA-12-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "12"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "series-13-18",
+      "type": "series",
+      "label": "Креативы 13–18",
+      "summary": "6 вариантов · квадрат и широкий формат",
+      "description": "6 вариантов · квадрат и широкий формат",
+      "links": [
+        {
+          "label": "Открыть серию",
+          "href": "../rsya-c-2026-10-05/"
+        }
+      ],
+      "facts": [
+        [
+          "Номера",
+          "13–18"
+        ]
+      ]
+    },
+    {
+      "id": "creative-13",
+      "type": "creative",
+      "label": "13 / Твоё место силы",
+      "summary": "Серия 13–18 · два формата",
+      "description": "Серия 13–18 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-c-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-13-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-13-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "13"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-14",
+      "type": "creative",
+      "label": "14 / Играй с размахом",
+      "summary": "Серия 13–18 · два формата",
+      "description": "Серия 13–18 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-c-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-14-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-14-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "14"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-15",
+      "type": "creative",
+      "label": "15 / Комфорт в каждой детали",
+      "summary": "Серия 13–18 · два формата",
+      "description": "Серия 13–18 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-c-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-15-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-15-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "15"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-16",
+      "type": "creative",
+      "label": "16 / Игра заслуживает сцену",
+      "summary": "Серия 13–18 · два формата",
+      "description": "Серия 13–18 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-c-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-16-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-16-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "16"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-17",
+      "type": "creative",
+      "label": "17 / Точность начинается здесь",
+      "summary": "Серия 13–18 · два формата",
+      "description": "Серия 13–18 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-c-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-17-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-17-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "17"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-18",
+      "type": "creative",
+      "label": "18 / Вечер под хорошим знаком",
+      "summary": "Серия 13–18 · два формата",
+      "description": "Серия 13–18 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-c-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-18-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-c-2026-10-05/assets/RSYA-18-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "18"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "series-19-24",
+      "type": "series",
+      "label": "Креативы 19–24",
+      "summary": "6 вариантов · квадрат и широкий формат",
+      "description": "6 вариантов · квадрат и широкий формат",
+      "links": [
+        {
+          "label": "Открыть серию",
+          "href": "../rsya-d-2026-10-05/"
+        }
+      ],
+      "facts": [
+        [
+          "Номера",
+          "19–24"
+        ]
+      ]
+    },
+    {
+      "id": "creative-19",
+      "type": "creative",
+      "label": "19 / Знак твоей игры",
+      "summary": "Серия 19–24 · два формата",
+      "description": "Серия 19–24 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-d-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-19-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-19-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "19"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-20",
+      "type": "creative",
+      "label": "20 / У HIGHRATE свой свет",
+      "summary": "Серия 19–24 · два формата",
+      "description": "Серия 19–24 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-d-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-20-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-20-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "20"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-21",
+      "type": "creative",
+      "label": "21 / Комфорт с характером HIGHRATE",
+      "summary": "Серия 19–24 · два формата",
+      "description": "Серия 19–24 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-d-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-21-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-21-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "21"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-22",
+      "type": "creative",
+      "label": "22 / Игра найдёт своё место",
+      "summary": "Серия 19–24 · два формата",
+      "description": "Серия 19–24 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-d-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-22-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-22-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "22"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-23",
+      "type": "creative",
+      "label": "23 / HIGHRATE в твоём ритме",
+      "summary": "Серия 19–24 · два формата",
+      "description": "Серия 19–24 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-d-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-23-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-23-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "23"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    },
+    {
+      "id": "creative-24",
+      "type": "creative",
+      "label": "24 / HIGHRATE на Парашютной",
+      "summary": "Серия 19–24 · два формата",
+      "description": "Серия 19–24 · два формата",
+      "links": [
+        {
+          "label": "Открыть галерею",
+          "href": "../rsya-d-2026-10-05/"
+        },
+        {
+          "label": "Квадрат JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-24-square.jpg"
+        },
+        {
+          "label": "Широкий JPG",
+          "href": "../rsya-d-2026-10-05/assets/RSYA-24-wide.jpg"
+        }
+      ],
+      "facts": [
+        [
+          "Номер",
+          "24"
+        ],
+        [
+          "Форматы",
+          "1080 × 1080 / 1920 × 1080"
+        ]
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "kit",
+      "target": "foundation",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "kit",
+      "target": "components",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "kit",
+      "target": "zones",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "kit",
+      "target": "map",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "kit",
+      "target": "menu",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "kit",
+      "target": "desktop",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "kit",
+      "target": "photos",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "kit",
+      "target": "boards",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "kit",
+      "target": "wallpapers",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "kit",
+      "target": "ads",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "foundation",
+      "target": "tokens",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "foundation",
+      "target": "logo",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "foundation",
+      "target": "colors",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "foundation",
+      "target": "fonts",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "foundation",
+      "target": "spacing",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "foundation",
+      "target": "viewports",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-button-primary",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-button-secondary",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-button-size",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-icon-button",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-text-link",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-badge",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-input",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-input-error",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-choice",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-segmented",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-select",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-toast",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-dialog",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-disclosure",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-divider",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-loading",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-zone-card",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-booking-summary",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-seat",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-tariff-row",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-product-row",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-mobile-navigation",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-header",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-story-template",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-post-template",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-tv-template",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-iconography",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-desktop-block",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-shortcut-slot",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "components",
+      "target": "component-menu-photo",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "zones",
+      "target": "zone-solo",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-34",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-34",
+      "target": "zone-solo",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-35",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-35",
+      "target": "zone-solo",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-36",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-36",
+      "target": "zone-solo",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-37",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-37",
+      "target": "zone-solo",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-39",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-39",
+      "target": "zone-solo",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "zones",
+      "target": "zone-duo",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-31",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-31",
+      "target": "zone-duo",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-32",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-32",
+      "target": "zone-duo",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-40",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-40",
+      "target": "zone-duo",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-41",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-41",
+      "target": "zone-duo",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "zones",
+      "target": "zone-trio",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-01",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-01",
+      "target": "zone-trio",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-02",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-02",
+      "target": "zone-trio",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-03",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-03",
+      "target": "zone-trio",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "zones",
+      "target": "zone-squad",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-04",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-04",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-05",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-05",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-06",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-06",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-07",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-07",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-08",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-08",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-09",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-09",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-10",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-10",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-11",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-11",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-12",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-12",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-13",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-13",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-14",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-14",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-15",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-15",
+      "target": "zone-squad",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "zones",
+      "target": "zone-bootcamp",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-16",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-16",
+      "target": "zone-bootcamp",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-17",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-17",
+      "target": "zone-bootcamp",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-18",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-18",
+      "target": "zone-bootcamp",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-19",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-19",
+      "target": "zone-bootcamp",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-20",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-20",
+      "target": "zone-bootcamp",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-26",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-26",
+      "target": "zone-bootcamp",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-27",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-27",
+      "target": "zone-bootcamp",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-28",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-28",
+      "target": "zone-bootcamp",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-29",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-29",
+      "target": "zone-bootcamp",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-30",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-30",
+      "target": "zone-bootcamp",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "zones",
+      "target": "zone-cs2-room",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-21",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-21",
+      "target": "zone-cs2-room",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-22",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-22",
+      "target": "zone-cs2-room",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-23",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-23",
+      "target": "zone-cs2-room",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-24",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-24",
+      "target": "zone-cs2-room",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-25",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-25",
+      "target": "zone-cs2-room",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "zones",
+      "target": "zone-solo-plus",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-33",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-33",
+      "target": "zone-solo-plus",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "map",
+      "target": "seat-38",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "seat-38",
+      "target": "zone-solo-plus",
+      "relation": "assignedTo",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu",
+      "target": "menu-category-food",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-food",
+      "target": "menu-beef",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-food",
+      "target": "menu-goulash",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-food",
+      "target": "menu-chicken",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-food",
+      "target": "menu-pilaf",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-food",
+      "target": "menu-carbonara",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-food",
+      "target": "menu-pasta",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-food",
+      "target": "menu-udon",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-food",
+      "target": "menu-meatballs",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-food",
+      "target": "menu-dumplings-fried",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-food",
+      "target": "menu-dumplings-cream",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu",
+      "target": "menu-category-tea",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-tea",
+      "target": "menu-tea-milk-oolong",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-tea",
+      "target": "menu-tea-bergamot",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-tea",
+      "target": "menu-tea-buckwheat",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-tea",
+      "target": "menu-tea-sea-buckthorn",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-tea",
+      "target": "menu-tea-raspberry-mint",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-tea",
+      "target": "menu-tea-puer",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-tea",
+      "target": "menu-tea-hibiscus",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-tea",
+      "target": "menu-tea-berries",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-tea",
+      "target": "menu-tea-da-hong-pao",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu",
+      "target": "menu-category-drinks",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-burn",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-adrenaline",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-lit",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-gorilla",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-red-bull",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-hqd",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-monster",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-arizona",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-lipton",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-natakhtari",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-mountain-dew",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-cola",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-drinks",
+      "target": "menu-water",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu",
+      "target": "menu-category-services",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-services",
+      "target": "menu-electronic-bowl",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "menu-category-services",
+      "target": "menu-cigar-tobacco",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3025",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3026",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3027",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3028",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3077",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3078",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3079",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3081",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3082",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3083",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3084",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3085",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3086",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3087",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3088",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3089",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3090",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3091",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3092",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3093",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3095",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3348",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "photos",
+      "target": "photo-IMG_3349",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-01",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-02",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-03",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-04",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-05",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-06",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-07",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-08",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-09",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-10",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-11",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-12",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-13",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-14",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-15",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-16",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-17",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-18",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-19",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "boards",
+      "target": "board-20",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "wallpapers",
+      "target": "wallpaper-impulse",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "desktop",
+      "target": "wallpaper-impulse",
+      "relation": "availableAsBackground",
+      "confidence": "verified"
+    },
+    {
+      "source": "wallpapers",
+      "target": "wallpaper-monolith",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "desktop",
+      "target": "wallpaper-monolith",
+      "relation": "availableAsBackground",
+      "confidence": "verified"
+    },
+    {
+      "source": "wallpapers",
+      "target": "wallpaper-flow",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "desktop",
+      "target": "wallpaper-flow",
+      "relation": "availableAsBackground",
+      "confidence": "verified"
+    },
+    {
+      "source": "ads",
+      "target": "series-01-06",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-01-06",
+      "target": "creative-01",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-01-06",
+      "target": "creative-02",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-01-06",
+      "target": "creative-03",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-01-06",
+      "target": "creative-04",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-01-06",
+      "target": "creative-05",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-01-06",
+      "target": "creative-06",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "ads",
+      "target": "series-07-12",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-07-12",
+      "target": "creative-07",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-07-12",
+      "target": "creative-08",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-07-12",
+      "target": "creative-09",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-07-12",
+      "target": "creative-10",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-07-12",
+      "target": "creative-11",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-07-12",
+      "target": "creative-12",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "ads",
+      "target": "series-13-18",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-13-18",
+      "target": "creative-13",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-13-18",
+      "target": "creative-14",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-13-18",
+      "target": "creative-15",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-13-18",
+      "target": "creative-16",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-13-18",
+      "target": "creative-17",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-13-18",
+      "target": "creative-18",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "ads",
+      "target": "series-19-24",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-19-24",
+      "target": "creative-19",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-19-24",
+      "target": "creative-20",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-19-24",
+      "target": "creative-21",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-19-24",
+      "target": "creative-22",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-19-24",
+      "target": "creative-23",
+      "relation": "contains",
+      "confidence": "verified"
+    },
+    {
+      "source": "series-19-24",
+      "target": "creative-24",
+      "relation": "contains",
+      "confidence": "verified"
+    }
+  ]
+}

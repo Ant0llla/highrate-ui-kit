@@ -1,0 +1,149 @@
+{
+  "brand": "HIGHRATE",
+  "numbers": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+  ],
+  "formats": [
+    "1080×1080",
+    "1920×1080"
+  ],
+  "concepts": [
+    {
+      "number": "01",
+      "title": "Играй с комфортом",
+      "support": "Твой вечер в HIGHRATE",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-01-square.jpg",
+          "png": "exports/RSYA-01-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-01-wide.jpg",
+          "png": "exports/RSYA-01-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "title": "Сильное железо для твоей игры",
+      "support": "RTX 5070 · Ryzen 7 7800X3D · В зоне TRIO",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-02-square.jpg",
+          "png": "exports/RSYA-02-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-02-wide.jpg",
+          "png": "exports/RSYA-02-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "title": "Сервис высокого уровня",
+      "support": "Внимание к твоему вечеру",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-03-square.jpg",
+          "png": "exports/RSYA-03-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-03-wide.jpg",
+          "png": "exports/RSYA-03-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "title": "Играй вместе со своими",
+      "support": "Вечер для твоей компании",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-04-square.jpg",
+          "png": "exports/RSYA-04-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-04-wide.jpg",
+          "png": "exports/RSYA-04-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "05",
+      "title": "Выбери свой формат",
+      "support": "7 игровых зон",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-05-square.jpg",
+          "png": "exports/RSYA-05-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-05-wide.jpg",
+          "png": "exports/RSYA-05-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "number": "06",
+      "title": "Собери свой состав",
+      "support": "Командный формат CS2 ROOM",
+      "status": "historical_previous_approach",
+      "formats": [
+        {
+          "format": "square",
+          "jpg": "assets/RSYA-06-square.jpg",
+          "png": "exports/RSYA-06-square.png",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "format": "wide",
+          "jpg": "assets/RSYA-06-wide.jpg",
+          "png": "exports/RSYA-06-wide.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    }
+  ]
+}

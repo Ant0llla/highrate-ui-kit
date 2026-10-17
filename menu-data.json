@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "title": "Меню",
+  "updatedAt": "2026-10-04",
+  "status": "design_catalog_template",
+  "notice": "Шаблон каталога с составом из исторических исходников и новым оформлением по обсуждениям с Эдиком Актуальные наличие, цены и порции уточняются на ресепшене",
+  "categories": [
+    {
+      "id": "food",
+      "label": "Кухня"
+    },
+    {
+      "id": "tea",
+      "label": "Чай"
+    },
+    {
+      "id": "drinks",
+      "label": "Напитки"
+    },
+    {
+      "id": "services",
+      "label": "Услуги"
+    }
+  ],
+  "items": [
+    {
+      "id": "beef",
+      "category": "food",
+      "name": "Бефстроганов в сливках с картофельным пюре",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": "assets/menu/7.png",
+      "variants": []
+    },
+    {
+      "id": "goulash",
+      "category": "food",
+      "name": "Гуляш с картофелем, запечённым в травах",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": "assets/menu/6.png",
+      "variants": []
+    },
+    {
+      "id": "chicken",
+      "category": "food",
+      "name": "Цыплёнок в кисло-сладком соусе",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": "assets/menu/4.png",
+      "variants": []
+    },
+    {
+      "id": "pilaf",
+      "category": "food",
+      "name": "Плов с курицей",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": "assets/menu/8.png",
+      "variants": []
+    },
+    {
+      "id": "carbonara",
+      "category": "food",
+      "name": "Карбонара с копчёным цыплёнком",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": "assets/menu/1.png",
+      "variants": []
+    },
+    {
+      "id": "pasta",
+      "category": "food",
+      "name": "Паста с цыплёнком и грибами",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": "assets/menu/2.png",
+      "variants": []
+    },
+    {
+      "id": "udon",
+      "category": "food",
+      "name": "Удон с курицей и овощами",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": "assets/menu/udon.png",
+      "variants": []
+    },
+    {
+      "id": "meatballs",
+      "category": "food",
+      "name": "Фрикадельки с рисом и соусом «Чёрный перец»",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": "assets/menu/3.png",
+      "variants": []
+    },
+    {
+      "id": "dumplings-fried",
+      "category": "food",
+      "name": "Пельмени куриные жареные",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": "assets/menu/10.png",
+      "variants": []
+    },
+    {
+      "id": "dumplings-cream",
+      "category": "food",
+      "name": "Пельмени куриные в сливочном соусе",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": "assets/menu/9.png",
+      "variants": []
+    },
+    {
+      "id": "tea-milk-oolong",
+      "category": "tea",
+      "name": "Молочный улун",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "tea-bergamot",
+      "category": "tea",
+      "name": "Чёрный с бергамотом",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "tea-buckwheat",
+      "category": "tea",
+      "name": "Гречишный персик — апельсин",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "tea-sea-buckthorn",
+      "category": "tea",
+      "name": "Фруктовый облепиха — апельсин",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "tea-raspberry-mint",
+      "category": "tea",
+      "name": "Травяной малина — мята",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "tea-puer",
+      "category": "tea",
+      "name": "Шу пуэр",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "tea-hibiscus",
+      "category": "tea",
+      "name": "Фруктовый каркаде",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "tea-berries",
+      "category": "tea",
+      "name": "Чёрный с лесными ягодами",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "tea-da-hong-pao",
+      "category": "tea",
+      "name": "Улун Да Хун Пао",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "burn",
+      "category": "drinks",
+      "name": "BURN",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [
+        "Tropical",
+        "Original",
+        "Mango",
+        "Juicy Energy",
+        "Apple"
+      ],
+      "ageRestriction": 18
+    },
+    {
+      "id": "adrenaline",
+      "category": "drinks",
+      "name": "ADRENALINE",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [
+        "Клубника",
+        "Бриз"
+      ],
+      "ageRestriction": 18
+    },
+    {
+      "id": "lit",
+      "category": "drinks",
+      "name": "LIT",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [
+        "Малина",
+        "Кола",
+        "Черника",
+        "Zero",
+        "Citrus Punch",
+        "Клубника",
+        "Гранат",
+        "Classic"
+      ],
+      "ageRestriction": 18
+    },
+    {
+      "id": "gorilla",
+      "category": "drinks",
+      "name": "GORILLA",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [
+        "Манго-кокос",
+        "Ultimate",
+        "Green Boost",
+        "Original"
+      ],
+      "ageRestriction": 18
+    },
+    {
+      "id": "red-bull",
+      "category": "drinks",
+      "name": "RED BULL",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [
+        "Классический"
+      ],
+      "ageRestriction": 18
+    },
+    {
+      "id": "hqd",
+      "category": "drinks",
+      "name": "HQD",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [],
+      "ageRestriction": 18
+    },
+    {
+      "id": "monster",
+      "category": "drinks",
+      "name": "MONSTER",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [],
+      "ageRestriction": 18
+    },
+    {
+      "id": "arizona",
+      "category": "drinks",
+      "name": "ARIZONA",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "lipton",
+      "category": "drinks",
+      "name": "LIPTON",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [
+        "Персик",
+        "Зелёный"
+      ]
+    },
+    {
+      "id": "natakhtari",
+      "category": "drinks",
+      "name": "НАТАХТАРИ",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [
+        "Фейхоа",
+        "Виноград",
+        "Груша",
+        "Тархун"
+      ]
+    },
+    {
+      "id": "mountain-dew",
+      "category": "drinks",
+      "name": "MOUNTAIN DEW",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "cola",
+      "category": "drinks",
+      "name": "COLA",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "water",
+      "category": "drinks",
+      "name": "СВЯТОЙ ИСТОЧНИК",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [
+        "С газом",
+        "Без газа",
+        "Лимон"
+      ]
+    },
+    {
+      "id": "electronic-bowl",
+      "category": "services",
+      "name": "Кальян — электронная чаша",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": []
+    },
+    {
+      "id": "cigar-tobacco",
+      "category": "services",
+      "name": "Сигарный табак",
+      "price": null,
+      "portion": null,
+      "currency": "RUB",
+      "availability": null,
+      "image": null,
+      "variants": [],
+      "description": "Дополнение к кальяну"
+    }
+  ],
+  "tvExports": [
+    {
+      "label": "TV кухня 01",
+      "url": "exports/i7aZ5q.png"
+    },
+    {
+      "label": "TV кухня 02",
+      "url": "exports/XBVFE.png"
+    },
+    {
+      "label": "TV напитки",
+      "url": "exports/FBvnA.png"
+    },
+    {
+      "label": "TV чай",
+      "url": "exports/h9Iz9h.png"
+    }
+  ]
+}

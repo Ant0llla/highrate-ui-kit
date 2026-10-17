@@ -1,0 +1,60 @@
+{
+  "brand": "HIGHRATE",
+  "created": "2026-10-05",
+  "sourceDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "exportDimensions": {
+    "width": 3840,
+    "height": 2160
+  },
+  "sourceNote": "Фоны сгенерированы, подготовлены к 3840×2160; это размер экспорта, а не исходное разрешение генерации",
+  "variants": [
+    {
+      "number": "01",
+      "name": "Импульс",
+      "file": "../assets/desktop/wallpapers-2026-10-05/01-impulse-3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "desktop": {
+        "file": "desktop/01-impulse-desktop-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "bytes": 4561552,
+        "sha256": "c3f32a93cf61dea26c73330611e83fc683469d32d821251f9767986c196666c4",
+        "nativeNode": "Y7bAQE"
+      }
+    },
+    {
+      "number": "02",
+      "name": "Монолит",
+      "file": "../assets/desktop/wallpapers-2026-10-05/02-monolith-3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "desktop": {
+        "file": "desktop/02-monolith-desktop-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "bytes": 4724777,
+        "sha256": "0f822e177b1dd92361986ffd432b128d343a3ad35183d633e719b02a08a7bc76",
+        "nativeNode": "dqQqf"
+      }
+    },
+    {
+      "number": "03",
+      "name": "Поток",
+      "file": "../assets/desktop/wallpapers-2026-10-05/03-flow-3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "desktop": {
+        "file": "desktop/03-flow-desktop-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "bytes": 4112477,
+        "sha256": "7ba108d4d313825c94f3a9e244ed4595274088f97bf0dd60ca1f3e0428d9f4da",
+        "nativeNode": "BYbBj"
+      }
+    }
+  ]
+}
